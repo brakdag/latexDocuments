@@ -1,0 +1,67 @@
+\documentclass[a4paper,landscape]{article}
+
+\usepackage[usenames,dvipsnames]{pstricks}
+\usepackage[spanish]{babel}
+\usepackage{epsfig}
+\usepackage{pst-grad} % For gradients
+ \usepackage{pst-plot} % For axes
+ \usepackage[space]{grffile} % For spaces in paths
+ \usepackage{etoolbox} % For spaces in paths
+ \makeatletter % For spaces in paths
+ \patchcmd\Gread@eps{\@inputcheck#1 }{\@inputcheck"#1"\relax}{}{}
+ \makeatother
+ % User Packages:
+% 
+% 
+\begin{document}
+
+\begin{center}
+\psscalebox{1.0 1.0} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-1.1425121)(17.13084,1.1425121)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](2.7256603,0.6950161)(1.1356919,-0.41127762)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(0.0,-0.19001888)(0.22713837,-0.19001888)(0.6814151,-0.19001888)(1.1356919,-0.19001888)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(2.7256603,-0.19001888)(3.4070754,-0.19001888)(3.8613522,-0.19001888)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(1.1356919,0.47375736)(0.9085535,0.47375736)(0.45427674,0.47375736)(0.0,0.47375736)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(3.8613522,0.47375736)(3.1042244,0.47375736)(2.7256603,0.47375736)
+\rput[bl](0.22713837,0.031239863){$L_0$}
+\rput[bl](0.22713837,0.6950161){$V_1$}
+\rput[bl](1.5899686,0.031239863){$Etapa 1$}
+\rput[bl](2.9527988,0.6950161){$V_2$}
+\rput[bl](2.9527988,0.031239863){$L_1$}
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](5.678459,0.6950161)(3.8613522,-0.41127762)
+\rput[bl](4.315629,0.031239863){$Etapa 2$}
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(6.814151,0.47375736)(6.057023,0.47375736)(5.678459,0.47375736)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(5.678459,-0.19001888)(6.3598742,-0.19001888)(6.814151,-0.19001888)
+\rput[bl](5.9055977,0.6950161){$V_3$}
+\rput[bl](5.9055977,0.031239863){$L_2$}
+\psline[linecolor=black, linewidth=0.04](7.268428,1.1375335)(7.0412893,0.2524986)(7.268428,0.031239863)(6.814151,-1.0750538)(6.814151,-1.0750538)
+\psline[linecolor=black, linewidth=0.04](7.495566,1.1375335)(7.268428,0.2524986)(7.495566,0.031239863)(7.0412893,-1.0750538)(7.0412893,-1.0750538)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.514531,0.6950161)(8.924562,-0.41127762)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(7.788871,-0.19001888)(8.016009,-0.19001888)(8.470286,-0.19001888)(8.924562,-0.19001888)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(10.514531,-0.19001888)(11.195947,-0.19001888)(11.650223,-0.19001888)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(8.924562,0.47375736)(8.697424,0.47375736)(8.243148,0.47375736)(7.788871,0.47375736)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(11.650223,0.47375736)(10.893095,0.47375736)(10.514531,0.47375736)
+\rput[bl](8.016009,0.031239863){$L_{j-1}$}
+\rput[bl](8.016009,0.6950161){$V_j$}
+\rput[bl](9.199597,0.031239863){$Etapa j$}
+\rput[bl](10.74167,0.6950161){$V_{j+1}$}
+\rput[bl](10.74167,0.031239863){$L_j$}
+\psline[linecolor=black, linewidth=0.04](12.205725,1.090121)(11.978586,0.20508602)(12.205725,-0.016172724)(11.751448,-1.1224664)(11.751448,-1.1224664)
+\psline[linecolor=black, linewidth=0.04](12.432863,1.090121)(12.205725,0.20508602)(12.432863,-0.016172724)(11.978586,-1.1224664)(11.978586,-1.1224664)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](15.223702,0.6792119)(13.633734,-0.42708182)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(12.498042,-0.20582308)(12.72518,-0.20582308)(13.179457,-0.20582308)(13.633734,-0.20582308)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(15.223702,-0.20582308)(15.905117,-0.20582308)(16.359394,-0.20582308)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(13.633734,0.45795316)(13.406595,0.45795316)(12.952318,0.45795316)(12.498042,0.45795316)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.11,arrowlength=1.5,arrowinset=0.0]{->}(16.359394,0.45795316)(15.602266,0.45795316)(15.223702,0.45795316)
+\rput[bl](12.72518,0.015435667){$L_{n-1}$}
+\rput[bl](12.72518,0.6792119){$V_n$}
+\rput[bl](13.811,0.015435667){$Etapa n$}
+\rput[bl](15.450841,0.6792119){$V_{n+1}$}
+\rput[bl](15.450841,0.015435667){$L_n$}
+\end{pspicture}
+}
+
+\end{center}
+
+\end{document}

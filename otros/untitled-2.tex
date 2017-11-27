@@ -1,0 +1,33 @@
+\documentclass{article}
+
+\usepackage{pst-node,pst-plot}
+
+\begin{document}
+
+\psset{linecolor=black,linewidth=1pt,arrowsize=8pt,unit=0.29cm}
+\begin{pspicture}(-15.3,-15.3)(17.4,15.3)
+
+  % Axes
+  \psaxes[Dx=5,Dy=5]{->}(0,0)(0,14.5)(14.5,14.5)
+  \psset{linewidth=.4pt}
+  \psaxes[Dx=1,Dy=1,labels=none,ticksize=1.5pt](0,0)(0,0)(14,14)
+  \uput{10pt}[0](0,14){\psscalebox{1.25}{\itshape eje y}}
+  \uput{10pt}[70](14,0){\psscalebox{1.25}{\itshape eje x}}
+
+  % Origin
+  \pnode(0,0){O}
+  \pnode(3,5){E}
+  \uput{35pt}[310](0,0){\rnode{Ot}{\psscalebox{1.1}{
+          \vbox{\halign{\hfil#\hfil\cr$(0,0)$\cr\itshape cero\cr}}}}}
+  \nccurve[angleA=315,angleB=145,arrowsize=4pt,
+          nodesepA=2pt,nodesepB=-3pt,linecolor=gray]{<-}{E}{Ot}
+
+  % Point
+  \psdots[dotstyle=*,dotscale=1.2](3,5)
+  \psline[linestyle=dotted,linewidth=.8pt](3,0)(3,5)(0,5)
+  \uput{2.5pt}[53](3,5){\psscalebox{1.1}{$P(3,5)$}}
+
+ 
+\end{pspicture}
+
+\end{document}
