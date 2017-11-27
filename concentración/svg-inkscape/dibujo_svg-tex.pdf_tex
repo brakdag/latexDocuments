@@ -1,0 +1,76 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'dibujo_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{632.33427429bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.13477259)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{dibujo_svg-tex.pdf}}%
+    \put(0.01347023,0.06887002){\makebox(0,0)[lb]{\smash{$L_0$}}}%
+    \put(0.01347023,0.10823466){\makebox(0,0)[lb]{\smash{$V_1$}}}%
+    \put(0.07768648,0.07005611){\makebox(0,0)[lb]{\smash{$Etapa (1)$}}}%
+    \put(0.175113,0.10823466){\makebox(0,0)[lb]{\smash{$V_2$}}}%
+    \put(0.175113,0.06887002){\makebox(0,0)[lb]{\smash{$L_1$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{dibujo_svg-tex.pdf}}%
+    \put(0.25593439,0.06887002){\makebox(0,0)[lb]{\smash{$Etapa (2)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{dibujo_svg-tex.pdf}}%
+    \put(0.35022601,0.10823466){\makebox(0,0)[lb]{\smash{$V_3$}}}%
+    \put(0.35022601,0.06887002){\makebox(0,0)[lb]{\smash{$L_2$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{dibujo_svg-tex.pdf}}%
+    \put(0.475382,0.06887002){\makebox(0,0)[lb]{\smash{$L_{j-1}$}}}%
+    \put(0.475382,0.10823466){\makebox(0,0)[lb]{\smash{$V_j$}}}%
+    \put(0.54557365,0.06887002){\makebox(0,0)[lb]{\smash{$Etapa (j)$}}}%
+    \put(0.63702481,0.10823466){\makebox(0,0)[lb]{\smash{$V_{j+1}$}}}%
+    \put(0.63702481,0.06887002){\makebox(0,0)[lb]{\smash{$L_j$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{dibujo_svg-tex.pdf}}%
+    \put(0.75465508,0.06793277){\makebox(0,0)[lb]{\smash{$L_{n-1}$}}}%
+    \put(0.75465508,0.1072974){\makebox(0,0)[lb]{\smash{$V_n$}}}%
+    \put(0.81904858,0.06793277){\makebox(0,0)[lb]{\smash{$Etapa (n)$}}}%
+    \put(0.91629786,0.1072974){\makebox(0,0)[lb]{\smash{$V_{n+1}$}}}%
+    \put(0.91629786,0.06793277){\makebox(0,0)[lb]{\smash{$L_n$}}}%
+  \end{picture}%
+\endgroup%

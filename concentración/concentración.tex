@@ -1,0 +1,126 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc} 
+\usepackage[spanish]{babel}
+\usepackage{svg}
+\usepackage{amsmath}
+\usepackage{geometry} 
+\geometry{a4paper} 
+\geometry{margin=2.2cm}
+\usepackage{enumitem}
+\title{Cálculo de Extracción.-\\ Procesos Industriales.\\ Universidad Tecnológica Nacional.\\ Facultad Regional San Rafael.\\ 2017.}
+\author{Ferreyra, Gustavo David}
+\date{}
+\begin{document}
+\maketitle
+\newpage
+\begin{figure}
+\center
+\tiny  
+\includesvg[scale=0.6,extractwidth=300pt]{dibujo}
+\caption{Esquema de etapa múltiple de concentradores}
+\end{figure}
+\section{Extracción en contra corriente con etapas múltiples.}
+
+Este es un sistema esquemático de un sistema de extracción en contracorriente con etapas múltiples que contiene $n$ etapas ideales. La velocidad de alimentación se representa por $L_0$ y la del disolvente suministrado por $V_{n+1}$. Por la etapa 1 representa el extremo del sistema por el que se introduce la alimentación y desde el cual sale el flujo superior de concentración más elevada del soluto. la etapa $n$ representa el extremo del sistema por el que se efectúa la alimentación del disolvente puro y del que sale el flujo inferior con la concentración más baja en soluto.
+  
+Vemos que el sistema es análogo al de una columna de destilación en platos debajo de la alimentación (sección de agotamiento).
+
+Consideraremos que conocemos $L_0$ y su composición $X_0$, $V_{n+1}$ y su composición $Y_{n+1}$ y el contenido de soluto del flujo inferior que sale del sistema  $X_{(A)n}$. Consideraremos también que disponemos de información para determinar el lugar geométrico de las composiciones de flujo inferior. Veamos la solución gráfica para obtener el números de etapas teóricas.
+
+\subsection{Balance de materia y componentes.}
+\newcounter{neq}
+Balance de materia sobre el total del sistema es:
+
+\begin {equation}
+L_0 + V_{n+1} = L_n + V_1
+\addtocounter{neq}{1}
+\end{equation}
+
+\begin {equation}
+L_0 X_0+ V_{n+1}Y_{n+1} = L_n X_n + V_1  V_1
+\addtocounter{neq}{1}
+\end{equation}
+
+\begin{figure}
+\center
+\includesvg[scale=1.8]{grafico}
+\caption{Solución gráfica para la extracción con múltiples etapas.}
+\end{figure}
+
+Si llamamos $M$ a la suma de las corrientes $L_0$ y $V_{n+1}$, el punto $X_M$ que representa la composición de $M$, puede situarse sobre el diagrama, a partir del hecho de que debe estar situado sobre la línea recta que une los puntos $X_0$ e $Y_{n+1}$, y que su posición sobre la línea se determina por la relación $V_{n+1}/L_0$.
+
+De las ecuaciones $(1)$ y $(2)$, $M$ también es la suma de las corrientes $L_n$ y $V_1$. Por consiguientes los puntos $M_n$ y $M_m$ $Y_1$ deben estar situados sobre la misma recta. Puesto que se conoce el lugar geométrico de las composiciones de flujo inferior, el punto $X_n$ se sitúa en el l ugar geométrico con el valor $X_{(A)n}$.
+
+El punto $Y_1$ se contruye la recta que une $X_n$ y $X_M$ y determinando su intersección con el lugar geométrico de las composiciones de flujo superior. En este momento se conoce las composiciones de todas las corrientes terminales. Si escribimos las ecuaciones de balance de materia para la parte del sistema desde la etapa 1 hasta la $j+1$, y se simplifica:
+
+\begin {equation}
+L_0 - V_{1} = L_j - V_{j+1}
+\addtocounter{neq}{1}
+\end{equation}
+
+\begin {equation}
+L_0 X_0 - V_{1}Y_{1} = L_j X_j - V_{j+1}Y_{j+1}
+\addtocounter{neq}{1}
+\end{equation}
+
+En las que la etapa $j$ puede ser una etapa cualquiera del sistema ($j=1,2,3...,n$). Hagamos que R quede definida por:
+
+$R= L_0 - V_1$
+$R X_R = L_0 X_0-V_1 Y_1$
+
+Entonces las ecuaciones $(3)$ y $(4)$:
+
+\begin {equation}
+R = L_0 - V_1=L_1-V_2= ... =L_n-V_{n+1}
+\addtocounter{neq}{1}
+\end{equation}
+
+\begin {equation}
+R X_R = L_0 X_0 - V_1 X_1=L_1 X_1-V_2 Y_2= ... =L_n X_n-V_{n+1} Y_{n+1}
+\addtocounter{neq}{1}
+\end{equation}
+ 
+El punto $X_R$ se localiza por la intersección de las rectas que pasan por los puntos $X_0$,$Y_1$ y $X_n$, $Y_{n+1}$ , puesto que según las ecuaciones 5 y 6 ha de pertenecer a ambas.
+La solución gráfica puede comenzarse en cualquiera de los extremos del sistema. Si empezamos por la etapa 1, como el punto $Y_1$ es conocido, el $X_1$ se determina usando la relación de etapa ideal, es decir construyendo la línea que pasa por el origen (si todo el soluto está disuelto) y el punto $Y_1$ determinando su intersección con la línea de composición de flujo inferior. Como $X_1$ y $X_R$ son conocidos puede determinarse $Y_2$ por la intersección de la línea que pasa por $X_1$ y $X_R$ y la línea de composiciones de flujo superior, ya que
+ 
+$R=L_1 -V_2$
+
+$R X_R = L_1 X_1 - V_2 Y_2$.
+
+El procedimiento puede repetirse hasta que el valor obtenido de $X_A$ sea menor o igual que $X_{(A)n}$. El número de etapas ideales necesarias es igual al número de rectas de reparto, líneas que pasan por el origen y los puntos $Y_1$, $Y_2$, etc. Para este gráfico es 2.
+
+\textit{Ejemplo:} Se va a extraer aceite de una harina por medio de benceno, usando un extractor continuo en contracorriente. La unidad va a tratar 2000Kg de harina por hora (basado en sólido completamente agotado). La harina no tratada contiene 800Kg de aceite y 50kg de benceno. la solución extractora nueva está formada por 1310kg de benceno y 20kg de aceite. los sólidos agotados contienen 120kg de aceite no extraído. Experimentos realizados en condiciones identicas a aquellas para las que se proyecta la batería, indican que la solución retenida por el sólido depende de la concentración de la solución.
+
+Encontrar:
+
+\begin{enumerate}[label=\alph*)]
+\item La composición de la solución concentrada. 
+\item La composición de la solución que queda adherida al sólido extraído.
+\item El peso de la solución que sale de la harina extraída.
+\item El peso de la solución concentrada.
+\item El número de unidades necesarias.
+\end{enumerate}
+
+Solución.
+
+\textit{Base del cálculo 1 hora}
+
+$L_0=2000+800+50 = 2850kg$
+
+$X_{A0}=800/2850=0,281$
+
+$X_{S0}=50/2850=0,01754$
+
+$V_{n+1}=20+1310=1330 kg$
+
+$Y_{A n+1}=20/1330=0,0150$
+
+$Y_{B n+1}=20/1330=0$
+
+$Y_{S n+1}0,985$
+
+Sea $M = L_0+V_{n+1}=2850+1330 =4180$
+
+$\frac{L_0}{M} = \frac{2850}{4180}$
+
+\end{document}

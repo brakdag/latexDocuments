@@ -1,0 +1,84 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'grafico_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{295.43122169bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.04672277)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{grafico_svg-tex.pdf}}%
+    \put(0.7459345,0.01880392){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X_0$}}}%
+    \put(0.30534309,0.20239036){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X_1$}}}%
+    \put(0.18975698,0.46173623){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y_2$}}}%
+    \put(0.17010217,0.2597191){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X_2$}}}%
+    \put(0.06357947,0.83604424){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.01659143,1.03109413){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X_R$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{grafico_svg-tex.pdf}}%
+    \put(0.4745232,0.42210296){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y_1$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{grafico_svg-tex.pdf}}%
+    \put(0.12187282,0.04165984){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0.15995271,0.00357991){\color[rgb]{0,0,0.50196078}\makebox(0,0)[lb]{\smash{$0$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{grafico_svg-tex.pdf}}%
+    \put(0.32854914,0.34667817){\color[rgb]{0,0,1}\makebox(0,0)[lb]{\smash{$X_M$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{grafico_svg-tex.pdf}}%
+    \put(0.11473591,0.45342557){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y_{n+1}$}}}%
+    \put(0.21323136,0.21976472){\color[rgb]{0,0,0.50196078}\makebox(0,0)[lb]{\smash{$X_n$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{grafico_svg-tex.pdf}}%
+    \put(0.33042791,0.02587246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{grafico_svg-tex.pdf}}%
+    \put(0.65410731,0.49679424){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Lugar geométrico de las}$}}}%
+    \put(0.68203251,0.50314092){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.65447421,0.47167538){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{composiciones de los}$}}}%
+    \put(0.65574356,0.44628873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{flujos superiores}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{grafico_svg-tex.pdf}}%
+    \put(0.34295166,0.10163423){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Lugar geométrico de las}$}}}%
+    \put(0.34339066,0.08442172){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{composiciones de los}$}}}%
+    \put(0.34305832,0.06760056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{flujos inferiores}$}}}%
+    \put(0.24559537,0.00805016){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Fracción de peso del componente} A$}}}%
+    \put(0.13361355,0.07942911){\color[rgb]{0,0,0}\rotatebox{88.914497}{\makebox(0,0)[lb]{\smash{$\text{Fracción de peso del componente } S$}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{grafico_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

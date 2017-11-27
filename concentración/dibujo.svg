@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:latexdraw="http://latexdraw.sourceforge.net/namespaces/latexdraw"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg3848"
+   sodipodi:docname="dibujo.svg"
+   width="843.11237"
+   height="113.62844"
+   inkscape:version="0.92.1 r15371">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview3850"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="412.60081"
+     inkscape:cy="88.126008"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3800" />
+  <g
+     id="g3800"
+     transform="translate(-38,-29.751413)">
+    <g
+       latexdraw:type="rectangle"
+       id="id990508695">
+      <rect
+         x="96.784592"
+         y="53.125874"
+         width="77.498428"
+         height="53.314686"
+         latexdraw:borderPos="outer"
+         id="rect3680"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id154053385">
+      <polyline
+         points="39.0,96.3776223776224 50.356918312337655,96.3776223776224 73.07075493701319,96.3776223776224 95.7845915616885,96.3776223776224 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3683"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-154053385)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id756917244">
+      <polyline
+         points="175.28301974805268,96.3776223776224 209.35377468506545,96.3776223776224 232.06761130974132,96.3776223776224 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3686"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-756917244)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1191026278">
+      <polyline
+         points="95.7845915616885,63.1888111888112 84.4276732493507,63.1888111888112 61.71383662467535,63.1888111888112 39.0,63.1888111888112 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3689"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-1191026278)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id2110287643">
+      <polyline
+         points="232.06761130974132,63.1888111888112 194.21121693528193,63.1888111888112 175.28301974805268,63.1888111888112 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3692"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-2110287643)" />
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id970038244"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="50.356918"
+         y="85.314682"
+         id="text3695">$L_0$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id659535464"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="50.356918"
+         y="52.125874"
+         id="text3698">$V_1$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id1035354554"
+       latexdraw:position="bl"
+       style="fill:#000000"
+       transform="translate(-14,-1)">
+      <text
+         x="118.49843"
+         y="85.314682"
+         id="text3701">$Etapa (1)$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id485481266"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="186.63994"
+         y="52.125874"
+         id="text3704">$V_2$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id1948125888"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="186.63994"
+         y="85.314682"
+         id="text3707">$L_1$</text>
+    </g>
+    <g
+       latexdraw:type="rectangle"
+       id="id2081744727">
+      <rect
+         x="233.06761"
+         y="53.125874"
+         width="88.855347"
+         height="53.314686"
+         latexdraw:borderPos="outer"
+         id="rect3710"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id821054440"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="254.78145"
+         y="85.314682"
+         id="text3713">$Etapa (2)$</text>
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1803889918">
+      <polyline
+         points="379.70754937013106,63.1888111888112 341.85115499567223,63.1888111888112 322.92295780844273,63.1888111888112 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3716"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-1803889918)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id635949419">
+      <polyline
+         points="322.92295780844273,96.3776223776224 356.9937127454558,96.3776223776224 379.70754937013106,96.3776223776224 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3719"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-635949419)" />
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id822245908"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="334.27988"
+         y="52.125874"
+         id="text3722">$V_3$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id1858223741"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="334.27988"
+         y="85.314682"
+         id="text3725">$L_2$</text>
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id153243011">
+      <polyline
+         points="402.42138599480694,30.0 391.0644676824692,74.25174825174821 402.42138599480694,85.31468531468528 379.70754937013106,140.62937062937056 379.70754937013106,140.62937062937056 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3728"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id814245100">
+      <polyline
+         points="413.7783043071444,30.0 402.42138599480694,74.25174825174821 413.7783043071444,85.31468531468528 391.0644676824692,140.62937062937056 391.0644676824692,140.62937062937056 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3731"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="rectangle"
+       id="id1597558921">
+      <rect
+         x="486.22812"
+         y="53.125874"
+         width="77.498428"
+         height="53.314686"
+         latexdraw:borderPos="outer"
+         id="rect3734"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id753923333">
+      <polyline
+         points="428.44354230177174,96.3776223776224 439.80046061410957,96.3776223776224 462.5142972387848,96.3776223776224 485.2281338634604,96.3776223776224 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3737"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-753923333)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1801503693">
+      <polyline
+         points="564.7265620498246,96.3776223776224 598.7973169868378,96.3776223776224 621.5111536115124,96.3776223776224 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3740"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-1801503693)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id2135091947">
+      <polyline
+         points="485.2281338634604,63.1888111888112 473.87121555112236,63.1888111888112 451.15737892644705,63.1888111888112 428.44354230177174,63.1888111888112 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3743"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-2135091947)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1325790314">
+      <polyline
+         points="621.5111536115124,63.1888111888112 583.6547592370538,63.1888111888112 564.7265620498246,63.1888111888112 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3746"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-1325790314)" />
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id724793555"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="439.80045"
+         y="85.314682"
+         id="text3749">$L_{j-1}$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id378635344"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="439.80045"
+         y="52.125874"
+         id="text3752">$V_j$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id2124573416"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="498.97989"
+         y="85.314682"
+         id="text3755">$Etapa (j)$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id82180221"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="576.0835"
+         y="52.125874"
+         id="text3758">$V_{j+1}$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id476033090"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="576.0835"
+         y="85.314682"
+         id="text3761">$L_j$</text>
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id263389204">
+      <polyline
+         points="649.2862255710345,32.37062937062939 637.9293072586971,76.62237762237761 649.2862255710345,87.68531468531467 626.5723889463591,143.0 626.5723889463591,143.0 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3764"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1552694592">
+      <polyline
+         points="660.643143883372,32.37062937062939 649.2862255710345,76.62237762237761 660.643143883372,87.68531468531467 637.9293072586971,143.0 637.9293072586971,143.0 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3767"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="rectangle"
+       id="id1228032249">
+      <rect
+         x="721.68671"
+         y="53.916084"
+         width="77.498428"
+         height="53.314686"
+         latexdraw:borderPos="outer"
+         id="rect3770"
+         style="fill:none;stroke:#000000;stroke-width:2" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id357819639">
+      <polyline
+         points="663.9020856599557,97.16783216783216 675.2590039722942,97.16783216783216 697.9728405969688,97.16783216783216 720.6866772216447,97.16783216783216 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3773"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-357819639)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1261368714">
+      <polyline
+         points="800.1851054080087,97.16783216783216 834.2558603450217,97.16783216783216 856.969696969697,97.16783216783216 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3776"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-1261368714)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1087339975">
+      <polyline
+         points="720.6866772216447,63.97902097902095 709.3297589093071,63.97902097902095 686.6159222846313,63.97902097902095 663.9020856599557,63.97902097902095 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3779"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-1087339975)" />
+    </g>
+    <g
+       latexdraw:type="joinedLines"
+       id="id1819727105">
+      <polyline
+         points="856.969696969697,63.97902097902095 819.1133025952378,63.97902097902095 800.1851054080087,63.97902097902095 "
+         latexdraw:rotationAngle="0.0"
+         id="polyline3782"
+         style="fill:none;stroke:#000000;stroke-width:2;marker-end:url(#arrow1-1819727105)" />
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id14855871"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="675.25903"
+         y="86.104897"
+         id="text3785">$L_{n-1}$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id1119726022"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="675.25903"
+         y="52.916084"
+         id="text3788">$V_n$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id656341697"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="729.54999"
+         y="86.104897"
+         id="text3791">$Etapa (n)$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id1730168136"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="811.54205"
+         y="52.916084"
+         id="text3794">$V_{n+1}$</text>
+    </g>
+    <g
+       latexdraw:type="text"
+       id="id1688008465"
+       latexdraw:position="bl"
+       style="fill:#000000">
+      <text
+         x="811.54205"
+         y="86.104897"
+         id="text3797">$L_n$</text>
+    </g>
+  </g>
+  <defs
+     id="defs3844">
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-154053385"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3802"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-756917244"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3805"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-1191026278"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3808"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-2110287643"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3811"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-1803889918"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3814"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-635949419"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3817"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-753923333"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3820"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-1801503693"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3823"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-2135091947"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3826"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-1325790314"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3829"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-357819639"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3832"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-1261368714"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3835"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-1087339975"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3838"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+    <marker
+       overflow="visible"
+       orient="auto"
+       id="arrow1-1819727105"
+       style="overflow:visible">
+      <path
+         d="M 0,0 -5.149375,1.7164583 V 0 -1.7164583 Z"
+         latexdraw:arrSizeNum="2.11"
+         id="path3841"
+         inkscape:connector-curvature="0"
+         style="fill:#000000" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata3846">
+    <latexdraw:metadata>
+      <latexdraw:latexIncludes />
+      <latexdraw:displayXScale>true</latexdraw:displayXScale>
+      <latexdraw:displayYScale>true</latexdraw:displayYScale>
+      <latexdraw:unit>CM</latexdraw:unit>
+      <latexdraw:zoom>1.0</latexdraw:zoom>
+      <latexdraw:magneticGridStyle>NONE</latexdraw:magneticGridStyle>
+      <latexdraw:gridGap>20</latexdraw:gridGap>
+      <latexdraw:magneticGrid>true</latexdraw:magneticGrid>
+      <latexdraw:version>3.3.7</latexdraw:version>
+      <latexdraw:size>
+        <latexdraw:width>1370</latexdraw:width>
+        <latexdraw:height>744</latexdraw:height>
+      </latexdraw:size>
+      <latexdraw:position>
+        <latexdraw:x>0.0</latexdraw:x>
+        <latexdraw:y>0.0</latexdraw:y>
+      </latexdraw:position>
+    </latexdraw:metadata>
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
