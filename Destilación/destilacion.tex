@@ -1,12 +1,20 @@
-\documentclass[10pt,twocolumn,openany]{book}
-\usepackage[margin=10mm, a5paper]{geometry}
+\documentclass[11pt,openany]{book}
+\usepackage[margin=15mm, a5paper]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-
-
+\usepackage{svg}
+\usepackage{amsmath}
+\usepackage{geometry} 
+\usepackage{enumitem}
 \usepackage{libertine}
 \usepackage{libertinust1math}
 \usepackage[T1]{fontenc}
+\usepackage{tikz-qtree}
+\tikzset{
+execute at begin node=\strut,
+every tree node/.style={align=center},
+edge from parent/.append style={very thick,-stealth}
+}
 
 \setlength{\columnseprule}{0.4pt}   
 \title{Destilación \\ UTN FRSR \\ Argentina.}
@@ -17,7 +25,7 @@
 \chapter{Destilación}
 
 Destilación, proceso que consite en calentar una mezcla líquida hasta que sus componentes más 
-volátiles pasan a la fase de vapor y, a continución, enfriar el vapor para recuperar dichos 
+volátiles pasan a la fase de vapor y, a continuación, enfriar el vapor para recuperar dichos 
 componentes en forma líquida por medio de condensación.
 
 El objetivo principal de la destilación es separar una mezcla de varios componentes aprobechando 
@@ -75,11 +83,14 @@ varias destilaciones.
 concentración de 80\% de glicerina (se genera vapor de glicerina) donde se inicia la destilación.
 
 \section{Diagrama: Puntos de Ebullición.}
-
-Relación entre el punto de ebullición y la composición de equilibrio a presión constante para todas las 
+\begin{figure}[h]
+\includesvg[scale=0.4,extractwidth=20pt]{./img/image}
+\caption{Relación entre el punto de ebullición y la composición de equilibrio a presión constante para todas las 
 mezclas de un líquido A (más volátil) y otro B, con puntos de ebullición $t_A$ y $t_B$.
+}
+\end{figure}
 
-La concentración $x$ de un componente $(A)$ de una mezcla se calienta, comienza a hervir a $t_1$ y, la 
+La concentración $x$ de un componente $A$ de una mezcla se calienta, comienza a hervir a $t_1$ y, la 
 concentración del primer vapor será $y$, por lo que el líquido tiene una composición menor del componente más volátil.
 
 la mezcla representada en el diagrama de punto de ebullición sigue la ley de Raoult.
@@ -111,16 +122,21 @@ En algunos casos es posible obtener el diagrama de los puntos de ebullición a p
   el líquido son 0,263 para el benceno y 0,737 para el tolueno. La composición para el vapor se 
   determina por medio de la ley de Dalton. Aquí PA: 355mm y la presión total 760, por lo tanto la 
   composición del vapor y (fracción molar del benceno) es $351/760=0,46$.
+  \newline
+  \newline
 
-  Se puede expresar la ley de Raoult:
-
-  $\rho_A=P_A x$
-
+  \fbox{\parbox[b]{\linewidth}{
+ Se puede expresar la ley de Raoult:
+\begin{center}
+  $\rho_A=P_A X$
+\end{center}
   donde:
 
   $\rho_A$:Presión parcial del componente $A$ sobre la solución con fracción molar $x$.
   
   $P_A$: Presión de vapor componente puro $A$.
+}}
+\newline\newline
 
   Para el segundo componente de la mezcla:
 
@@ -142,13 +158,13 @@ Si $P$ es la presión total:
 $P=\rho_A + \rho_B = P_A + P_B (1-X)$ como 
 $y$: fracción molar de $A$ en el vapor es igual al cociente de la presión parcial de A a la presión total:
 
-$Y=\frac{\rho_A}{\rho_A+\rho_B}=\frac{P_A x}{P_A x+P_B (1-x)}=\frac{P_A x}{P}$
+$Y=\frac{\rho_A}{\rho_A+\rho_B}=\frac{P_A X}{P_A X+P_B (1-X)}=\frac{P_A X}{P}$
 
 La ley de Raoult se aplica únicamente a las mezclas de sustancias que son químicamente muy similares 
 y cuando las moléculas de las dos sustancias no tienen acción alguna entre si. Ejemplo de la 
 divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de Carbono-acetona.
 
-\section{ley de Henry.}
+\section{Ley de Henry.}
 
 Análoga a la ley de Raoult. La presión parcial de un componente en la solución es proporcional a su 
 fracción molar en el líquido.
@@ -164,13 +180,13 @@ La figura anterior muestra una curva de presión parcial para cada uno de los co
 mezcla, la cual es sustancialmente una línea recta en el final de la curva, en que el componente en 
 cuestión está en pequeñas cantidades.
 
-\section{mezclas de punto de ebullición constantes.}
+\section{Mezclas de punto de ebullición constantes.}
 
 Diagrama correspondiente a cloroformo-acetona. La composición de \textbf{a} tiene el punto de ebullición más elevado.
 
 El diagrama tiene el mismo punto de ebullición y corresponde a la temperatura \textbf{b} y la composición \textbf{a}.
 En ambos diagramas \textit{las curvas de líquido y vapor son tangentes} al punto de ebullición mínimo o mácimo.
-- La composición de vapor que se desprende de una mezcla de punto de ebullición máximo o mínimo es la misma que la del líquido
+La composición de vapor que se desprende de una mezcla de punto de ebullición máximo o mínimo es la misma que la del líquido
 hirviente; es decir el punto de ebullición es constante.
 Estas mezclas no se pueden separar por destilación.
 
@@ -193,7 +209,164 @@ La construcción de la curva líquido-vapor es fácil cuando se dispone del diag
 
  \section{Métodos de destilación}
 
+ Hay dos métodos principales:
+ \begin{enumerate}
+ \item Cuando se produce un vapor por ebullición de la mezcla líquida que se quiere separar, condensando esos vapores.
+ \item Cuando se envía parte envía parte del condensado al calderín (columna de destilación) y este retorno 
+ se pone en intimo contacto con los vapores que se desprenden en contracorriente y van hacia el condensador (rectificación).
+ \end{enumerate}
 
 
+\begin{tikzpicture}[scale=0.7]
+
+\Tree [.Destilación [.Relámpago ] 
+[.Simple ]
+[.Fraccionada [.{Columna destilación} [.{Contínuo (relleno)} [.{Anillo de rasching} ] ] [.{Por etapa (plato)} [.{Plato perforado} ] [.{Campana Burbujeadora} ] ] ] ] 
+[.{Destilacion al vacío} ] ]
+
+\end{tikzpicture}
+
+\section {Destilación de equilibrio o relámpago}
+
+En este método se realiza la vaporización de una fracción determinada de una carga de líquido,
+manteniendo tando el líquido como el vapor formado en íntimo contacto hasta el final de la 
+operación, retirando el vapor y condensándolo.
+
+Si tenemos un sistema formado por los componentes $A$ y $B$, siendo $A$ el más volátil se puede decir que:
+
+El número de moles contenidos en la carga $W_o$ y la composición de $A$ es $X_o$, si suponemos que se 
+vaporizan V moles, quedando en el líquido ($W_o - V$) moles. La composición del líquido es $x$ y la del 
+vapor en equilibrio con el es $y$.
+
+$W_o X_o = V y +(W_o -V) x$
+
+
+Este método es utilizado con sistemas multi-componentes.
+
+\section {Destilación simple.}
+
+Es una operación en la cual se produce la vaporización de un material por la aplicación de calor. Los 
+vapores que se desprenden se eliminan contínuamente, se condensan y se recolectan sin permitir 
+que tenga un lugar ninguna condensación parcial ni retorno al recipiente en donde se lleva a cabo 
+el calentamiento y la ebullición. el destilado puede recolectarse en varios lotes separados
+ (fracciones) en función de su grado de pureza.
+
+ Este método se aplica en industrias de capacidad moderada y pequeña.
+
+ \section{Destilación Fraccionada o rectificación}
+
+En este proceso, la mezcla líquida a separar (alimento) se lleva al fondo de la columna (calderín) y 
+se pone allí en ebullición. El vapor generado sube por la columna, sale de ella por la parte superior y 
+se condensa (serpentin). Una parte del condensado se separa como producto de cabeza (destilado) y la otra 
+vuelve como reflujo a la columna, por la que desciende como fase líquida.
+
+En el interior de la columna se pone en contacto el vapor ascendente con el líquido descendente. 
+En un nivel dado de la columna estas dos corrientes no se encuentran en equilibrio por lo que hay 
+una transferencia de materia psando los componentes más volátiles del líquido al vapor, y los 
+componentes menos volátiles del vapor al líquido. Por lo que el vapor se enriquece de los 
+elementos más volátiles a medida que asciende por la columna.
+
+\section {Columnas de destilación.}
+
+Los distintos tipos de destilación se suelen llevar a cabo en columnas de destilación.
+
+Estos recipientes cilíndricos verticales con una entrada de la corriente de alimentación a 
+destilar por un punto dado de la columna, y una salida por la parte superior o cabeza para extraer 
+los vapores a condensar. Estos pueden volver en parte a la columna como reflujo a través de otra entrada por la 
+parte superior.
+
+Para asegurar un adecuado contacto entre el vapor y el líquido (escencial para la transferencia de materia) se han 
+diseñado varios dispositivos basados en dos criterios distintos:
+\begin{enumerate}
+\item Columnas de contacto contínuo entre el vapor y el líquido o columnas de relleno.
+\item Columnas de contacto por etapas, o columnas de platos o pisos.
+\end{enumerate}
+-completar aca lo que falta-
+
+\section{Cálculo para el dimensionamiento de columna de fraccionamiento por destilación}
+
+Ingresa una mezcla $F(A Y B)$ componente binario. Que contiene una fracción de peso $X$,
+del componente $A$.
+La columna trabaja a una presión $P$.
+El producto de cabeza o destilado ha de contener $X_o$ y el de cola o residuo $X_w$
+(fracciones en peso) del componente A.
+
+\subsection{Balance de materia y calor.}
+Los caudales de las corrientes terminales $D$ y $W$ se pueden calcular por los balances de materia 
+(en estado de régimen).
+
+\subsubsection{Balance de materia.}
+Total: $F=D+W$
+\newline\newline
+Por componente: $F X_F = D X_D + W X_W$
+\newline\newline
+$F X_F = D X_D + (F-D) X_W$
+\newline\newline
+$D=F \frac{X_F - X_W}{X_D-X_W}$
+\newline\newline
+$W=F \frac{X_D - X_F}{X_D-X_W}$
+\subsubsection{Balance de energía}
+$F h_F +qr = D h_D + W h_W + qc$
+\newline\newline
+$qr$: calor entregado en el hervidor, kcal/h.
+$qc$: Calor eliminado en el condensador, kcal/h.
+\section{Balance de materia y energía para el condensador.}
+$V_1 = L_0 + D$ (Balance de materia.)
+\newline\newline
+$V_1 Y_1= L_0 x_0 + D X_D$ (Balance de un componente)
+\newline\newline
+$V_1 h_1 = qc + L_0 h_0 + D h_0$ (Balance de energía)
+\newline\newline
+Si se condensa totalmente todo el vapor que entra, entonces
+\newline\newline
+$Y_1 = X_0 = X_D$
+Despejando $qc$ del balance de energía.
+$qc = V_1 h_1 - (L_0+D)h_D$
+\newline\newline
+sustituyendo $V_1=L_0 +D$
+\newline\newline
+$qc=(L_0+D)h_1 - (L_0+D)h_D = (L_0+D)(h_1-h_D)$
+\newline\newline
+Dividiendo por $D$
+\newline\newline
+$qc/D = (L_0/D + D/D)(h_1-hD)=(L_0/D +1)(h_1-h_D)$
+\newline\newline
+La relación $L_0/D$ se denomina \textit{relación de flujo externo} y al fijar este valor es equivalente a 
+fijar $qc$. Puede calcularse el calor entregado en el hervidor por medio de 
+$F h_F + qr = D h_D + W h_W + qc$ . En este punto tenemos fijadas todas las condiciones terminales y los valores 
+desconocidos se han calculado por medio de los balances de materia y energía.
+\section{Cálculo plato a plato.}
+Para determinar números de platos en una columna para efectuar separación determinada, uno 
+de los métodos es el de proceder al cálculo plato a plato partiendo de datos terminales conocidos.
+
+Cualquiera de los dos extremos de la columna puede elegirse para comenzar los cálculos. Si se 
+empieza por la cabeza de la columna, se mantiene para el primer plato.
+\newline
+Balance de materia (total): $L_0+V_2=L_1+V_1$
+\newline \newline
+Balance del componente A: $L_0 X_0 + V_2 Y_2 = L_1 X_1 + V_1 Y_1$
+\newline \newline
+Balance de energía: $L_0 h_0+V_2 Y_2=L_1 h_1+V_1 H_1$
+\newline\newline
+Cantidades conocidas $L_0$,$X_0$,$h_0$ (reflujo) y $V_1$,$Y_1$,$ H_1$ (vapor)
+\newline\newline
+En consecuencia existen 6 incógnitas y 3 ecuaciones, haciendo necesario conocer más datos 
+adicionales, se introducen en el concepto de plato teórico.
+\subsection{Plato teórico}
+Se define como un plato que está cargado de cierta cantidad de líquido, del cual se desprende 
+un vapor cuaya composición media está en equilibrio con un líquido cuya composición es la media de 
+la del líquido que sale del plato. Utilizando estos conceptos se puede hacer el cálculo del número de 
+platos teóricos.
+
+La composición del vapor que sale del plato se conoce, por lo tanto la composición de la corriente 
+$L_1$ puede determinarse por la relación de equilibrio a la presion $P$. La composición $X_1$ de la corriente 
+$L_1$ es conocida ahora, lo cual fija su entalpía. Además la corriente $V_2$ es vapor saturado por lo que 
+su entalpía queda definida por su composición. De esta forma se conocen $X_1, h_1, H_2$ y el número 
+de variables desconocidas queda reducido a tres ($L_1,V_2,Y_2$) el sistema puede resolverse. Al llegar a
+este punto las composiciones y entalpías de las corrientes $V_2$ y $L_1$ han quedado determinadas y se 
+dispone de datos suficientes para empezar los cálculos del segundo plato teórico. Es posible 
+proceder de esta manera hasta el plato de la alimentación, pero el cálculo es pesado.
+
+Una solución más rápida de los balances de materia y energía puede obtenerse gráficamente 
+utilizando los diagramas entalpía-composición.
 \end{document}
- 
