@@ -2,51 +2,71 @@
 \usepackage[margin=15mm, a5paper]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage{svg}
+\usepackage{svg} % 
 \usepackage{amsmath}
 \usepackage{geometry} 
-\usepackage{enumitem}
-\usepackage{libertine}
-\usepackage{libertinust1math}
-\usepackage[T1]{fontenc}
 \usepackage{tikz-qtree}
+
+\title{Destilación}
+\author{Gustavo David Ferreyra}
 \tikzset{
 execute at begin node=\strut,
 every tree node/.style={align=center},
 edge from parent/.append style={very thick,-stealth}
 }
-
-\setlength{\columnseprule}{0.4pt}   
-\title{Destilación \\ UTN FRSR \\ Argentina.}
-\author{Gustavo David Ferreyra}
+\newtheorem{defi}{Definición}
 
 \begin{document}
-\maketitle
-\chapter{Destilación}
+\makeatletter
+\begin{titlepage}
+\centering
+\includesvg[scale=1,extractwidth=20pt]{./img/utn} \\
+\vspace{1cm}
+\begin{Huge}
+\@title \\ 
+\end{Huge}
+\vspace{1cm}
+\begin{large}
+Universidad Tecnológica Nacional \\ 
+  Facultad Regional San Rafael.
+\end{large}
 
-Destilación, proceso que consite en calentar una mezcla líquida hasta que sus componentes más 
-volátiles pasan a la fase de vapor y, a continuación, enfriar el vapor para recuperar dichos 
-componentes en forma líquida por medio de condensación.
+\vspace{5cm}
+
+\@author \\
+\@date \\
+
+
+\end{titlepage}
+
+
+\chapter{Destilación}
+\begin{defi}[Destilación]
+La destilación es un proceso que consiste en calentar una mezcla líquida, hasta que sus componentes más 
+volátiles pasen a la fase de vapor y a continuación, enfriar el vapor para recuperar dichos 
+componentes en forma líquida por medio de la condensación.
+\end{defi}
 
 El objetivo principal de la destilación es separar una mezcla de varios componentes aprobechando 
 sus distintas volatilidades, o bien separar los materiales volátiles de los no volátiles.
 
-En la evaporación y en el secado, normalmente el objetivo es obtener el componente menos volátil;
-el componente más volátil, casi siempre agua, se desecha. Sin embargo, la finalidad principal 
-de la destilación es obtener el componente más volatil en forma pura.
+En los procesos de evaporación y secado, normalmente el componente más volátil es agua que se desecha, porque el objetivo es obtener 
+el componente menos volátil. Por el contrario, en la destilación la finalidad principal es obtener el componente más volatil.
 
-Por ejemplo, la eliminación del agua de la glicerina evaporando el agua, se llama evaporación, pero 
-la eliminación del agua del alcohol evaporando el alcohol se llama destilación, aunque se usan 
+Por ejemplo, la eliminación de agua de la glicerina evaporando el agua, se llama evaporación, pero 
+la eliminación de agua del alcohol, evaporando el alcohol se llama destilación, aunque se usan 
 mecanismos similares en ambos casos.
 
-La destilación, como proceso, consta de dods fases: en la primera, el líquido pasa a vapor y en la 
-segunda el vapor se condensa, pasando de nuevo a líquido en un matraz distinto al de la destilación.
-
+El proceso de destilación, consta de dos fases:
+\begin{enumerate}
+\item El líquido pasa a vapor. 
+\item El vapor se condensa, volviendo a estado líquido en un matráz distinto de donde se produjo la evaporación.
+\end{enumerate}
 La diferencia entre destilación y evaporación es la siguiente:
 
 \textbf{Destilación:} La destilación es el procedimiento más utilizado para la separación y purificación de 
 líquidos, se utiliza siempre  que se protende separar un líquido de sus impurezas no volátiles.
-La exisgencia básica para la separación de los componentes de una mezcla por destilación es que la 
+La exigencia básica para la separación de los componentes de una mezcla por destilación es que la 
 composición del vapor sea diferente a la composición del líquido con el cual se encuentra en equilibrio. Si 
 la composición de ambos es igual, nunca podrá separarse por destilación.
 
@@ -54,9 +74,9 @@ la composición de ambos es igual, nunca podrá separarse por destilación.
 componentes, y dejarlo hervir hasta que se evapore totalmente. Se emplea si no tenemos interés 
 en utilizar el componente evaporado. Los otros componentes quedan en el envase.
 
-Ejemplos:
+\textit{Ejemplos:}
 
-La separación de alcohol de agua es un ejemplo de proceso de destilación. Cuando se lleva a ebullición 
+\textbf{La separación de alcohol de agua} es un ejemplo de proceso de destilación. Cuando se lleva a ebullición 
 una disolución de alcohol, la mayor parte del vapor inicial es de alcohol, pues alcanza su punto de 
 ebullición antes que el agua. el vapor se recoge y se condensa varias veces para obtener la mezcla de alcohol
 más concentrada.
@@ -90,58 +110,56 @@ mezclas de un líquido A (más volátil) y otro B, con puntos de ebullición $t_
 }
 \end{figure}
 
-La concentración $x$ de un componente $A$ de una mezcla se calienta, comienza a hervir a $t_1$ y, la 
-concentración del primer vapor será $y$, por lo que el líquido tiene una composición menor del componente más volátil.
-
-la mezcla representada en el diagrama de punto de ebullición sigue la ley de Raoult.
+La concentración $X$ de un componente $A$ de una mezcla se calienta, comienza a hervir a $t_1$ y, la 
+concentración del primer vapor será $Y$, por lo que el líquido tiene una composición menor del componente más volátil.
+La mezcla representada en el diagrama de punto de ebullición sigue la ley de Raoult.
 
 \section{Ley de Raoult.}
 
 En algunos casos es posible obtener el diagrama de los puntos de ebullición a partir de los datos de
- la presión de vapor de los componentes puros. Esta ley establece que a temperatura constante, la 
- presión parcial de un componente de la mezcla es igual a su fracción molar multiplicada por la 
+ la presión de vapor de los componentes puros. Esta ley establece que: 
+\begin{defi}[\textit{Ley de Raoult.}]
+ A temperatura constante la presión parcial de un componente de la mezcla es igual a su fracción molar multiplicada por la 
  presión del vapor del mismo componente en estado puro a la temperatura considerada.
-
+\end{defi}
  La presión del vapor o más comúnmente presión de saturación es la presión de la fase gaseosa o 
  vapor de un sólido o un líquido sobre la fase líquida, para una temperatura determinada, en la que 
- la fase líquida y el vapor se encuentran en equilibrio dinámico; su valor es independiente de las 
+ la fase líquida y el vapor se encuentran en equilibrio dinámico, su valor es independiente de las 
  cantidades de líquido y vapor presentes mientras existan ambas.
 
  Según esto la presión parcial de un componente varía linealmente desde cero hasta el valor de su 
  presión de vapor puro a medida que su fracción molar varía de cero a la unidad.
 
- Consideramos el sistema benceno-tolueno. A la temperatura de $100^oC$ el tolueno tiene una presión 
- de vapor de 556 milímetros. La gráfica en función de la composición será una recta. A ésta misma 
- temperatura el benceno tiene una presión de 1.350 mm, (y su presión de vapor varía de 0 para el
-  tolueno puro hasta 1.350 de benceno puro). La presión vapor total para cualquier composición será 
+ \begin{figure}[h]
+  \centering
+  \includesvg[scale=0.4,extractwidth=20pt]{./img/image2}
+  \caption{Diagrama benceno-tolueno}  
+\end{figure}
+  
+ Consideramos el sistema benceno-tolueno. A la temperatura de $t_A=100^oC$ el tolueno tiene una presión 
+ de vapor de $P_A=556mmHg$. La gráfica en función de la composición será una recta. A ésta misma 
+ temperatura el benceno tiene una presión de $P_B=1350 mmHg$, y su presión de vapor varía de 0 para el
+  tolueno puro hasta $P_B=1350 mmHg$ de benceno puro. La presión vapor total para cualquier composición será 
   la suma de las dos rectas.
 
   Estas son rectas cuando es aplicable la ley de Raoult.
 
-  En el punto en el que la presión total es 760 mm de Hg se encuentra que las fracciones molares en 
-  el líquido son 0,263 para el benceno y 0,737 para el tolueno. La composición para el vapor se 
-  determina por medio de la ley de Dalton. Aquí PA: 355mm y la presión total 760, por lo tanto la 
-  composición del vapor y (fracción molar del benceno) es $351/760=0,46$.
-  \newline
-  \newline
-
-  \fbox{\parbox[b]{\linewidth}{
- Se puede expresar la ley de Raoult:
-\begin{center}
-  $\rho_A=P_A X$
-\end{center}
-  donde:
-
-  $\rho_A$:Presión parcial del componente $A$ sobre la solución con fracción molar $x$.
+  En el punto en el que la presión total es $P=760 mmHg$ se encuentra que las fracciones molares en 
+  el líquido son $X=0,263$ para el benceno $1-X=0,737$ para el tolueno. La composición para el vapor se 
+  determina por medio de la ley de Dalton. Aquí $P_A=351 mmHg$ y la presión total $P=760 mmHg$, por lo tanto la 
+  composición del vapor y fracción molar del benceno es $Y_A=P_A/P=351/760=0,46$.
   
+ \begin{defi}[{Se puede expresar la ley de Raoult:}]
+ \boxed {\rho_A=P_A X}
+  donde:
+  $\rho_A$:Presión parcial del componente $A$ sobre la solución con fracción molar $x$.  
   $P_A$: Presión de vapor componente puro $A$.
-}}
-\newline\newline
+\end{defi}
 
   Para el segundo componente de la mezcla:
-
-  $\rho_B=P_B (1-X)$
-
+   \begin{equation}
+   \boxed{\rho_B=P_B (1-X)}
+   \end{equation}
   $P_B$: Presión de vapor componente puro $B$.
 
 En la línea trazada en la figura anterior podemos saber las presiones parciales de los diferentes
@@ -151,15 +169,15 @@ $\rho_A=0,263 1350 = 355$
 
 $\rho_B= 0,737 566 = 409$
 
-$P = 355 + 409 = 764$ mm de Hg
-
+$P = 355 + 409 = 764 mmHg$ 
 Si $P$ es la presión total:
-
-$P=\rho_A + \rho_B = P_A + P_B (1-X)$ como 
-$y$: fracción molar de $A$ en el vapor es igual al cociente de la presión parcial de A a la presión total:
-
-$Y=\frac{\rho_A}{\rho_A+\rho_B}=\frac{P_A X}{P_A X+P_B (1-X)}=\frac{P_A X}{P}$
-
+\begin{equation}
+\boxed{P=\rho_A + \rho_B = P_A X+P_B (1-X)}
+\end{equation}
+como $Y$: fracción molar de $A$ en el vapor es igual al cociente de la presión parcial de A a la presión total:
+\begin{equation}
+\boxed{Y=\frac{\rho_A}{\rho_A+\rho_B}=\frac{P_A X}{P_A X+P_B (1-X)}=\frac{P_A X}{P}}
+\end{equation}
 La ley de Raoult se aplica únicamente a las mezclas de sustancias que son químicamente muy similares 
 y cuando las moléculas de las dos sustancias no tienen acción alguna entre si. Ejemplo de la 
 divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de Carbono-acetona.
@@ -168,14 +186,15 @@ divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de Carbono-ac
 
 Análoga a la ley de Raoult. La presión parcial de un componente en la solución es proporcional a su 
 fracción molar en el líquido.
-$\rho_A = C x$
-
+\begin{equation}
+\boxed{\rho_A=c X}
+\end{equation}
 donde:
-
-$\rho_A$: Presión parcial de un componente $A$ sobre una mezcla líquida.
-$C$: es la constante a $T^o cte.$
-$x$: fracción molar de A.
-
+\begin{description}
+\item [$(\rho_A$):] Presión parcial de un componente $A$ sobre una mezcla líquida.
+\item [($c$):] es constante a temperatura constante $T^o=cte.$
+\item [($X$):] fracción molar de $A$.
+\end{description}
 La figura anterior muestra una curva de presión parcial para cada uno de los componentes de la 
 mezcla, la cual es sustancialmente una línea recta en el final de la curva, en que el componente en 
 cuestión está en pequeñas cantidades.

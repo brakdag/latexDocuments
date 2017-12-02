@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{764.07064574bp}%
+    \setlength{\unitlength}{762.87367664bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,25 +48,26 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.47813842)%
+  \begin{picture}(1,0.50118336)%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{image_svg-tex.pdf}}%
-    \put(0.41010179,0.01999041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
-    \put(0.41390563,0.00350712){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\% \text{Concentración}$}}}%
-    \put(-0.00198106,0.43841303){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Temperatura$}}}%
+    \put(0.41328513,0.02002178){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{}}}%
+    \put(0.41709494,0.00351262){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\% \text{Concentración}$}}}%
+    \put(-0.00198417,0.48100882){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Temperatura$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{image_svg-tex.pdf}}%
-    \put(0.58634646,0.45616428){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Vapor$\\ }}}%
-    \put(0.38347491,0.21905815){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Líquido}$}}}%
-    \put(0.42531718,0.34204902){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Vapor Húmedo}$}}}%
-    \put(0.26428787,0.03900961){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
-    \put(0.61804517,0.03900961){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
-    \put(0.92362045,0.27231192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t_A$}}}%
-    \put(0.12481366,0.39276692){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t_B$}}}%
-    \put(0.28330707,0.40164255){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$b$}}}%
-    \put(0.62945664,0.40671435){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
-    \put(0.84500773,0.04534942){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100\% A$}}}%
-    \put(0.88051022,0.01365066){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1\% B$}}}%
+    \put(0.65330317,0.44291071){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Vapor$\\ }}}%
+    \put(0.38661647,0.21940186){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Líquido}$}}}%
+    \put(0.42852439,0.3425857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\text{Vapor Húmedo}$}}}%
+    \put(0.26724242,0.03907082){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$X$}}}%
+    \put(0.62155481,0.04034074){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Y$}}}%
+    \put(0.90602058,0.2625797){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t_A$}}}%
+    \put(0.28629146,0.40481262){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$b$}}}%
+    \put(0.63298415,0.40100281){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$a$}}}%
+    \put(0.84887344,0.04542058){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100\% A$}}}%
+    \put(0.88443164,0.01367208){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0\% B$}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{image_svg-tex.pdf}}%
-    \put(0.16178102,0.01337407){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100\%$}}}%
-    \put(0.16574247,0.04760869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$1\%$}}}%
+    \put(0.16457473,0.01339505){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$100\%$}}}%
+    \put(0.1685424,0.04768339){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$0\%$}}}%
+    \put(0.16900224,0.44263367){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t_B$}}}%
+    \put(0.16900224,0.38294664){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t_1$}}}%
   \end{picture}%
 \endgroup%
