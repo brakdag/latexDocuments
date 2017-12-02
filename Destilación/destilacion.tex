@@ -1,11 +1,21 @@
-\documentclass[a4paper,12pt]{book}
+\documentclass[10pt,twocolumn,openany]{book}
+\usepackage[margin=10mm, a5paper]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
+
+
+\usepackage{libertine}
+\usepackage{libertinust1math}
+\usepackage[T1]{fontenc}
+
+\setlength{\columnseprule}{0.4pt}   
 \title{Destilación \\ UTN FRSR \\ Argentina.}
 \author{Gustavo David Ferreyra}
+
 \begin{document}
 \maketitle
 \chapter{Destilación}
+
 Destilación, proceso que consite en calentar una mezcla líquida hasta que sus componentes más 
 volátiles pasan a la fase de vapor y, a continución, enfriar el vapor para recuperar dichos 
 componentes en forma líquida por medio de condensación.
@@ -25,12 +35,14 @@ La destilación, como proceso, consta de dods fases: en la primera, el líquido 
 segunda el vapor se condensa, pasando de nuevo a líquido en un matraz distinto al de la destilación.
 
 La diferencia entre destilación y evaporación es la siguiente:
-\textit{Destilación:} La destilación es el procedimiento más utilizado para la separación y purificación de 
+
+\textbf{Destilación:} La destilación es el procedimiento más utilizado para la separación y purificación de 
 líquidos, se utiliza siempre  que se protende separar un líquido de sus impurezas no volátiles.
 La exisgencia básica para la separación de los componentes de una mezcla por destilación es que la 
 composición del vapor sea diferente a la composición del líquido con el cual se encuentra en equilibrio. Si 
 la composición de ambos es igual, nunca podrá separarse por destilación.
-\textit{Evaporación:} Consiste en calentar la mezcla hasta el punto de ebullición de uno de los 
+
+\textbf{Evaporación:} Consiste en calentar la mezcla hasta el punto de ebullición de uno de los 
 componentes, y dejarlo hervir hasta que se evapore totalmente. Se emplea si no tenemos interés 
 en utilizar el componente evaporado. Los otros componentes quedan en el envase.
 
@@ -40,4 +52,148 @@ La separación de alcohol de agua es un ejemplo de proceso de destilación. Cuan
 una disolución de alcohol, la mayor parte del vapor inicial es de alcohol, pues alcanza su punto de 
 ebullición antes que el agua. el vapor se recoge y se condensa varias veces para obtener la mezcla de alcohol
 más concentrada.
+
+\textbf{Desalinización del agua}, la desalinización es un proceso que utiliza el principio de destilación para 
+extraer la sal del agua de mar. El agua se calienta y se bombea a un tanque de baja presión, donde 
+se evapora parcialmente. A continuación, se condensa el vapor formado por esta ``evaporación súbita' y se 
+extrae como agua pura.
+
+Si la diferencia entre las temperaturas de ebullición o volatilidad de las sustancias es grande, se 
+puede realizar fácilmente la separación completa en una sola destilación. Es el caso de la obtención de
+agua destilada a partir del agua marina. Esta contiene aproximadamente el 4\% de distintas materias 
+sólidas en disolución.
+
+\textbf{La separación de agua y alcohol} , donde el agua hierve a $100^oC$, y el alcohol, que hierve a $78,5^oC$. Si 
+se hierve una mezcla de estos dos líquidos, el vapor que sale es más rico en alcohol y más pobre en 
+agua que el líquido del que precede, pero no es alcohol puro. Con el fin de concentrar una 
+disolución que contenga un 10\% del alcohol (como la que puede obtenerse por fermentación) para 
+conseguir una disolución que contenga un 50 \% de alcohol. (frecuentemente en whisky), el destilado ha 
+de volver a destilarse una o dos veces mas, y si se desea alcohol industrial (95\%) son necesarias 
+varias destilaciones.
+
+\textbf{Solución de glicerina diluída}: si se desea obtener glicerina; se separa por evaporación hasta la 
+concentración de 80\% de glicerina (se genera vapor de glicerina) donde se inicia la destilación.
+
+\section{Diagrama: Puntos de Ebullición.}
+
+Relación entre el punto de ebullición y la composición de equilibrio a presión constante para todas las 
+mezclas de un líquido A (más volátil) y otro B, con puntos de ebullición $t_A$ y $t_B$.
+
+La concentración $x$ de un componente $(A)$ de una mezcla se calienta, comienza a hervir a $t_1$ y, la 
+concentración del primer vapor será $y$, por lo que el líquido tiene una composición menor del componente más volátil.
+
+la mezcla representada en el diagrama de punto de ebullición sigue la ley de Raoult.
+
+\section{Ley de Raoult.}
+
+En algunos casos es posible obtener el diagrama de los puntos de ebullición a partir de los datos de
+ la presión de vapor de los componentes puros. Esta ley establece que a temperatura constante, la 
+ presión parcial de un componente de la mezcla es igual a su fracción molar multiplicada por la 
+ presión del vapor del mismo componente en estado puro a la temperatura considerada.
+
+ La presión del vapor o más comúnmente presión de saturación es la presión de la fase gaseosa o 
+ vapor de un sólido o un líquido sobre la fase líquida, para una temperatura determinada, en la que 
+ la fase líquida y el vapor se encuentran en equilibrio dinámico; su valor es independiente de las 
+ cantidades de líquido y vapor presentes mientras existan ambas.
+
+ Según esto la presión parcial de un componente varía linealmente desde cero hasta el valor de su 
+ presión de vapor puro a medida que su fracción molar varía de cero a la unidad.
+
+ Consideramos el sistema benceno-tolueno. A la temperatura de $100^oC$ el tolueno tiene una presión 
+ de vapor de 556 milímetros. La gráfica en función de la composición será una recta. A ésta misma 
+ temperatura el benceno tiene una presión de 1.350 mm, (y su presión de vapor varía de 0 para el
+  tolueno puro hasta 1.350 de benceno puro). La presión vapor total para cualquier composición será 
+  la suma de las dos rectas.
+
+  Estas son rectas cuando es aplicable la ley de Raoult.
+
+  En el punto en el que la presión total es 760 mm de Hg se encuentra que las fracciones molares en 
+  el líquido son 0,263 para el benceno y 0,737 para el tolueno. La composición para el vapor se 
+  determina por medio de la ley de Dalton. Aquí PA: 355mm y la presión total 760, por lo tanto la 
+  composición del vapor y (fracción molar del benceno) es $351/760=0,46$.
+
+  Se puede expresar la ley de Raoult:
+
+  $\rho_A=P_A x$
+
+  donde:
+
+  $\rho_A$:Presión parcial del componente $A$ sobre la solución con fracción molar $x$.
+  
+  $P_A$: Presión de vapor componente puro $A$.
+
+  Para el segundo componente de la mezcla:
+
+  $\rho_B=P_B (1-X)$
+
+  $P_B$: Presión de vapor componente puro $B$.
+
+En la línea trazada en la figura anterior podemos saber las presiones parciales de los diferentes
+ componentes por medio de la ley de Raoult:
+
+$\rho_A=0,263 1350 = 355$
+
+$\rho_B= 0,737 566 = 409$
+
+$P = 355 + 409 = 764$ mm de Hg
+
+Si $P$ es la presión total:
+
+$P=\rho_A + \rho_B = P_A + P_B (1-X)$ como 
+$y$: fracción molar de $A$ en el vapor es igual al cociente de la presión parcial de A a la presión total:
+
+$Y=\frac{\rho_A}{\rho_A+\rho_B}=\frac{P_A x}{P_A x+P_B (1-x)}=\frac{P_A x}{P}$
+
+La ley de Raoult se aplica únicamente a las mezclas de sustancias que son químicamente muy similares 
+y cuando las moléculas de las dos sustancias no tienen acción alguna entre si. Ejemplo de la 
+divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de Carbono-acetona.
+
+\section{ley de Henry.}
+
+Análoga a la ley de Raoult. La presión parcial de un componente en la solución es proporcional a su 
+fracción molar en el líquido.
+$\rho_A = C x$
+
+donde:
+
+$\rho_A$: Presión parcial de un componente $A$ sobre una mezcla líquida.
+$C$: es la constante a $T^o cte.$
+$x$: fracción molar de A.
+
+La figura anterior muestra una curva de presión parcial para cada uno de los componentes de la 
+mezcla, la cual es sustancialmente una línea recta en el final de la curva, en que el componente en 
+cuestión está en pequeñas cantidades.
+
+\section{mezclas de punto de ebullición constantes.}
+
+Diagrama correspondiente a cloroformo-acetona. La composición de \textbf{a} tiene el punto de ebullición más elevado.
+
+El diagrama tiene el mismo punto de ebullición y corresponde a la temperatura \textbf{b} y la composición \textbf{a}.
+En ambos diagramas \textit{las curvas de líquido y vapor son tangentes} al punto de ebullición mínimo o mácimo.
+- La composición de vapor que se desprende de una mezcla de punto de ebullición máximo o mínimo es la misma que la del líquido
+hirviente; es decir el punto de ebullición es constante.
+Estas mezclas no se pueden separar por destilación.
+
+Si la presión sobre las mismas varía, se puede cambiar el punto de ebullición constante y esto puede utilizarse para 
+efectuar separaciones, bien a presión o vacío.
+
+\section{Equilibrio de composición.}
+
+La forma simplificada de los diagramas anteriores (Cloroformo y Benceno) y reciben el nombre de diagramas de equilibrio 
+líquido vapor (reacción entre composición del líquido y el vapor a presión constante)
+
+El segundo diagrama de equilibrio se respresenta la mezcla cloroformo-acetona, en donde la curva de equilibrio corta a la 
+diagonal trazada por el origen, la intersección corresponde al punto de ebullición constante.
+
+La construcción de la curva líquido-vapor es fácil cuando se dispone del diagrama punto de
+ ebullición. Primer se elige una composición, se traza una vertical hasta 
+ cortar con la línea inferior o de líquido; desde ese punto trazar la horizontal hasta cortar la línea 
+ superior o de vapor y desde aquí una vertical hacia abajo, obteniéndose la composición del vapor 
+ que está en equilibrio con el líquido de partida.
+
+ \section{Métodos de destilación}
+
+
+
 \end{document}
+ 
