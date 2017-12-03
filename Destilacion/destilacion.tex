@@ -2,44 +2,19 @@
 \usepackage[margin=15mm, a5paper]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage{svg} % 
+\usepackage{dirtree}
+\usepackage{svg}  
 \usepackage{amsmath}
 \usepackage{geometry} 
 \usepackage{tikz-qtree}
 
 \title{Destilación}
 \author{Gustavo David Ferreyra}
-\tikzset{
-execute at begin node=\strut,
-every tree node/.style={align=center},
-edge from parent/.append style={very thick,-stealth}
-}
 \newtheorem{defi}{Definición}
 
 \begin{document}
-\makeatletter
-\begin{titlepage}
-\centering
-\includesvg[scale=1,extractwidth=20pt]{./img/utn} \\
-\vspace{1cm}
-\begin{Huge}
-\@title \\ 
-\end{Huge}
-\vspace{1cm}
-\begin{large}
-Universidad Tecnológica Nacional \\ 
-  Facultad Regional San Rafael.
-\end{large}
-
-\vspace{5cm}
-
-\@author \\
-\@date \\
-
-
-\end{titlepage}
-
-
+\input{caratula}
+\newpage\null\thispagestyle{empty}\newpage
 \chapter{Destilación}
 \begin{defi}[Destilación]
 La destilación es un proceso que consiste en calentar una mezcla líquida, hasta que sus componentes más 
@@ -147,7 +122,7 @@ En algunos casos es posible obtener el diagrama de los puntos de ebullición a p
   En el punto en el que la presión total es $P=760 mmHg$ se encuentra que las fracciones molares en 
   el líquido son $X=0,263$ para el benceno $1-X=0,737$ para el tolueno. La composición para el vapor se 
   determina por medio de la ley de Dalton. Aquí $P_A=351 mmHg$ y la presión total $P=760 mmHg$, por lo tanto la 
-  composición del vapor y fracción molar del benceno es $Y_A=P_A/P=351/760=0,46$.
+  composición del vapor y fracción molar del benceno es $Y_A=P_A/P=351mmHg/760mmHg=0,46$.
   
  \begin{defi}[{Se puede expresar la ley de Raoult:}]
  \boxed {\rho_A=P_A X}
@@ -236,14 +211,18 @@ La construcción de la curva líquido-vapor es fácil cuando se dispone del diag
  \end{enumerate}
 
 
-\begin{tikzpicture}[scale=0.7]
-
-\Tree [.Destilación [.Relámpago ] 
-[.Simple ]
-[.Fraccionada [.{Columna destilación} [.{Contínuo (relleno)} [.{Anillo de rasching} ] ] [.{Por etapa (plato)} [.{Plato perforado} ] [.{Campana Burbujeadora} ] ] ] ] 
-[.{Destilacion al vacío} ] ]
-
-\end{tikzpicture}
+\dirtree{
+.1 Destilacion.
+.2 Relámpago.
+.2 Simple.
+.3 Fraccionada.
+.4 {Columna destilación}.
+.5 {Contínuo (relleno)}.
+.6 {Anillo de rasching}.
+.5 {Por etapa (plato)}.
+.6 {Plato perforado}.
+.6 {Campana Burbujeadora}.
+.2 {Destilación al vacío}.}
 
 \section {Destilación de equilibrio o relámpago}
 
@@ -300,7 +279,39 @@ diseñado varios dispositivos basados en dos criterios distintos:
 \item Columnas de contacto contínuo entre el vapor y el líquido o columnas de relleno.
 \item Columnas de contacto por etapas, o columnas de platos o pisos.
 \end{enumerate}
--completar aca lo que falta-
+\section{Columnas de relleno.}
+Se diferencian de las anteriores por tener su interior ocupado por un relleno de anillos
+llamados anillos de rashing o de material perforado.
+En esta columnas lo más importante es la mayor superficie de contacto ofrecida por el relleno.
+En las columnas se produce habitualmente un movimiento a contracorriente entre el líquido que 
+desciende y el vapor que asciende. Y es durante este movimiento cuando se purifican los 
+componentes hasta la calidad deseada en el diseño.
+\subsection{Anillos de rashing.}
+Son piezas de geometría tubular cuyo diámetro es aproximadamente igual a su longitud y que se 
+emplean como relleno para columnas en procesos de destilación.
+Generalmente se frabrican con material cerámico o metálico y poseen una elevada superficie de 
+contacto, lo que facilita la interacción entre una fase líquida estacionaria y una fase móvil gaseosa.
+\subsection{Funcionamiento.}
+En la columna de destilación, el reflujo o vapor condensado gotea sobre el interior de la columna.
+recubriendo los anillos de Rasching.
+Por otro lado, el vapor producido por la calefacción del dispositivo asciende por la columna.
+De esta forma, el vapor generado y el líquido condensado interaccionan en contracorriente en el 
+interior de los anillos de Rashing, tendiendo a establecer un equilibrio. Los componentes menos 
+volátiles se desplazan con el líquido condensado y los más volátiles se desplazan con el vapor generado, 
+es decir siguen sentidos opuestos.
+\subsection{Columnas de plato.}
+Los platos son superficies planas que dividen la columna en una serie de etapas.
+Tienen por objeto retener una cierta cantidad de líquido en la superficie a través del cual se hace 
+burbujear el vapor que asciende de la caldera, consiguiendo así un buen contacto entre el vapor y el líquido.
+El líquido de un platoi cae al plato siguiente por un rebosadero situado en un extremo del plato.
+Según la forma del dispositivoi que permite el paso del vapor a través del líquido, se distiguen entre:
+platos perforados con simples agujeros, platos de campana, de válvulas y otros.
+El vapor que llega a un plato por debajo, y el líquido que llega por encima, no están en equilibrio. 
+En el plato tiene lugar la mezcla íntima de ambas corrientes, produciéndose allí la transferencia de materia.
+El vapor que abandona el plato hacia arriba es más rico en el componente más volátil, y en el líquido que 
+cae del plato es más rico en el componente menos volátil. 
+
+-completar-
 
 \section{Cálculo para el dimensionamiento de columna de fraccionamiento por destilación}
 
@@ -315,7 +326,10 @@ Los caudales de las corrientes terminales $D$ y $W$ se pueden calcular por los b
 (en estado de régimen).
 
 \subsubsection{Balance de materia.}
-Total: $F=D+W$
+Total: 
+\begin{equation}
+\boxed{F=D+W}
+\end{equation}
 \newline\newline
 Por componente: $F X_F = D X_D + W X_W$
 \newline\newline
