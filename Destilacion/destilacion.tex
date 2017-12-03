@@ -40,6 +40,12 @@ El proceso de destilación, consta de dos fases:
 \item El líquido pasa a vapor. 
 \item El vapor se condensa, volviendo a estado líquido en un matráz distinto de donde se produjo la evaporación.
 \end{enumerate}
+\begin{figure}
+  \centering
+  \includesvg[scale=0.2,extractwidth=200pt]{./img/destila}
+  \caption{Destilación}  
+\end{figure}
+ 
 La diferencia entre destilación y evaporación es la siguiente:
 
 
@@ -96,8 +102,11 @@ La mezcla representada en el diagrama de punto de ebullición sigue la ley de Ra
 En algunos casos es posible obtener el diagrama de los puntos de ebullición a partir de los datos de
  la presión de vapor de los componentes puros. Esta ley establece que: 
 \begin{defi}[\textit{Ley de Raoult}]
- A temperatura constante la presión parcial de un componente de la mezcla es igual a su fracción molar multiplicada por la 
- presión del vapor del mismo componente en estado puro a la temperatura considerada.
+ A temperatura constante la presión parcial de un 
+ componente de la mezcla es igual 
+ a su fracción molar multiplicada 
+ por la presión del vapor del mismo componente 
+ en estado puro a la temperatura considerada.
 \end{defi}
  La presión del vapor o más comúnmente presión de saturación es la presión de la fase gaseosa o 
  vapor de un sólido o un líquido sobre la fase líquida, para una temperatura determinada, en la que 
@@ -125,21 +134,16 @@ En algunos casos es posible obtener el diagrama de los puntos de ebullición a p
   composición del vapor y fracción molar del benceno es $Y_A=P_A/P=351mmHg/760mmHg=0,46$.
   
  Se puede expresar la ley de Raoult:
-\begin{equation}
- \boxed {\rho_A=P_A X}
-\end{equation}
-  donde:
-  \begin{description}
-  \item [$\rho_A$] {Presión parcial del componente $A$ sobre la solución con fracción molar $x$.} 
-  \item [$P_A$] {Presión de vapor componente puro $A$.}
-  \end{description}
-
-
-  Para el segundo componente de la mezcla:
-   \begin{equation}
-   \boxed{\rho_B=P_B (1-X)}
-   \end{equation}
-  $P_B$: Presión de vapor componente puro $B$.
+\begin{equation}\rho_A=P_A X\end{equation}
+donde:
+\begin{description}
+  \item [$\rho_A=$] {Presión parcial del componente $A$ sobre la solución con fracción molar $X$.} 
+  \item [$P_A=$] {Presión de vapor componente puro $A$.}
+  \item [$P_B=$] {Presión de vapor componente puro $B$.}
+  
+\end{description}
+Para el segundo componente de la mezcla:
+\begin{equation}\rho_B=P_B (1-X)\end{equation}
 
 En la línea trazada en la figura anterior podemos saber las presiones parciales de los diferentes
  componentes por medio de la ley de Raoult:
@@ -151,17 +155,17 @@ $\rho_B= 0,737\ 566mmHg = 409mmHg$
 $P = 355mmHg + 409mmHg = 764 mmHg$ 
 Si $P$ es la presión total:
 \begin{equation}
-\boxed{P=\rho_A + \rho_B = P_A X+P_B (1-X)}
+P=\rho_A + \rho_B = P_A X+P_B (1-X)
 \end{equation}
 como $Y$: fracción molar de $A$ en el vapor es igual al cociente de la presión parcial de A a la presión total:
 \begin{equation}
-\boxed{Y=\frac{\rho_A}{\rho_A+\rho_B}=\frac{P_A X}{P_A X+P_B (1-X)}=\frac{P_A X}{P}}
+Y=\frac{\rho_A}{\rho_A+\rho_B}=\frac{P_A X}{P_A X+P_B (1-X)}=\frac{P_A X}{P}
 \end{equation}
 La ley de Raoult se aplica únicamente a las mezclas de sustancias que son químicamente muy similares 
 y cuando las moléculas de las dos sustancias no tienen acción alguna entre si. Ejemplo de la 
 divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de carbono-acetona.
 
-\begin{figure}[h]
+\begin{figure}[h] \label{fig:car-acet}
   \centering
   \includesvg[scale=0.4,extractwidth=20pt]{./img/carb-ace}
   \caption{Diagrama sulfuro de carbono - acetona}  
@@ -172,14 +176,12 @@ divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de carbono-ac
 
 Análoga a la ley de Raoult. La presión parcial de un componente en la solución es proporcional a su 
 fracción molar en el líquido.
-\begin{equation}
-\boxed{\rho_A=c X}
-\end{equation}
-donde:
+\begin{equation}\rho_A=c X\end{equation}
+Donde:
 \begin{description}
-\item [$(\rho_A$):] Presión parcial de un componente $A$ sobre una mezcla líquida.
-\item [($c$):] es constante a temperatura constante $T^o=cte.$
-\item [($X$):] fracción molar de $A$.
+\item [$\rho_A=$] Presión parcial de un componente $A$ sobre una mezcla líquida.
+\item [$c=$] Constante a temperatura constante.
+\item [$X=$] Fracción molar de $A$.
 \end{description}
 La figura anterior muestra una curva de presión parcial para cada uno de los componentes de la 
 mezcla, la cual es sustancialmente una línea recta en el final de la curva, en que el componente en 
@@ -203,8 +205,9 @@ efectuar separaciones, bien a presión o vacío.
 La forma simplificada de los diagramas anteriores (Cloroformo y Benceno) y reciben el nombre de diagramas de equilibrio 
 líquido vapor (reacción entre composición del líquido y el vapor a presión constante)
 
-El segundo diagrama de equilibrio se respresenta la mezcla cloroformo-acetona, en donde la curva de equilibrio corta a la 
-diagonal trazada por el origen, la intersección corresponde al punto de ebullición constante.
+El segundo diagrama de equilibrio se respresenta la mezcla cloroformo-acetona,
+ en donde la curva de equilibrio corta a la diagonal trazada por el origen, 
+ la intersección corresponde al punto de ebullición constante.
 
 La construcción de la curva líquido-vapor es fácil cuando se dispone del diagrama punto de
  ebullición. Primer se elige una composición, se traza una vertical hasta 
@@ -260,8 +263,7 @@ Si tenemos un sistema formado por los componentes $A$ y $B$, siendo $A$ el más 
 El número de moles contenidos en la carga $W_o$ y la composición de $A$ es $X_o$, si suponemos que se 
 vaporizan V moles, quedando en el líquido ($W_o - V$) moles. La composición del líquido es $x$ y la del 
 vapor en equilibrio con el es $y$.
-
-$W_o X_o = V y +(W_o -V) x$
+\begin{equation}W_o X_o = V y +(W_o -V) x\end{equation}
 
 
 Este método es utilizado con sistemas multi-componentes.
@@ -351,23 +353,31 @@ Los caudales de las corrientes terminales $D$ y $W$ se pueden calcular por los b
 (en estado de régimen).
 
 \subsubsection{Balance de materia}
-Total: 
-\begin{equation}
-\boxed{F=D+W}
+ 
+\begin{equation} \label{eq:total}
+F=D+W   
 \end{equation}
-\newline\newline
-Por componente: $F X_F = D X_D + W X_W$
-\newline\newline
-$F X_F = D X_D + (F-D) X_W$
-\newline\newline
-$D=F \frac{X_F - X_W}{X_D-X_W}$
-\newline\newline
-$W=F \frac{X_D - X_F}{X_D-X_W}$
+\begin{equation} \label{eq:componentes} 
+F X_F = D X_D + W X_W 
+\end{equation}
+
+La ecuación~\ref{eq:total} es de balance total y la equación~\ref{eq:componentes}
+balance por componentes. Reemplazando~\ref{eq:total} en~\ref{eq:componentes}: 
+\begin{equation*}F X_F = D X_D + (F-D) X_W\end{equation*}
+\begin{equation} D=F \frac{X_F - X_W}{X_D-X_W}\label{eq:destilado}\end{equation}
+\begin{equation}W=F \frac{X_D - X_F}{X_D-X_W}\label{eq:residuo}\end{equation}
+
+  La ecuación~\ref{eq:destilado} corresponde a la cantidad de destilado y 
+  la ecuación ~\ref{eq:residuo} corresponde a la cola o residuo del destilado.
+  
 \subsubsection{Balance de energía}
-$F h_F +qr = D h_D + W h_W + qc$
-\newline\newline
-$qr$: calor entregado en el hervidor, kcal/h.
-$qc$: Calor eliminado en el condensador, kcal/h.
+\begin{equation}F h_F +q_r = D h_D + W h_W + q_c\end{equation}
+
+
+\begin{description}
+\item [$q_r=$] {Calor entregado en el hervidor $(kcal/h)$.}
+\item [$q_c=$] {Calor eliminado en el condensador $(kcal/h)$.}
+\end{description}
 \subsubsection{Balance de materia y energía para el condensador}
 $V_1 = L_0 + D$ (Balance de materia.)
 \newline\newline

@@ -1,0 +1,60 @@
+%% Creator: Inkscape inkscape 0.92.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'destila_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{959.6383255bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.77851929)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{destila_svg-tex.pdf}}%
+    \put(0.0500046,0.76146371){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textup{termómetro}$}}}%
+    \put(-0.00157734,0.4253996){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\textup{balón}$}}}%
+    \put(0.49861108,0.52231112){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$condensador$}}}%
+    \put(0.2469538,0.09558783){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$mechero$}}}%
+    \put(0.61584275,0.23313968){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$agua$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{destila_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%
