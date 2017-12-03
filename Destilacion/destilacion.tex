@@ -1,21 +1,24 @@
 \documentclass[11pt,openany]{book}
-\usepackage[margin=15mm, a5paper]{geometry}
+\usepackage[margin=14mm, a5paper]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage{dirtree}
+\usepackage{trees}
 \usepackage{svg}  
 \usepackage{amsmath}
 \usepackage{geometry} 
-\usepackage{tikz-qtree}
 
-\title{Destilación}
+
+\title{DESTILACIÓN}
 \author{Gustavo David Ferreyra}
 \newtheorem{defi}{Definición}
 
 \begin{document}
 \input{caratula}
-\newpage\null\thispagestyle{empty}\newpage
-\chapter{Destilación}
+\newpage\null\thispagestyle{empty}
+\newpage\tableofcontents{\thispagestyle{empty}}
+\newpage\setcounter{page}{1}
+\chapter{DESTILACIÓN}
+\section{Introducción}
 \begin{defi}[Destilación]
 La destilación es un proceso que consiste en calentar una mezcla líquida, hasta que sus componentes más 
 volátiles pasen a la fase de vapor y a continuación, enfriar el vapor para recuperar dichos 
@@ -39,6 +42,7 @@ El proceso de destilación, consta de dos fases:
 \end{enumerate}
 La diferencia entre destilación y evaporación es la siguiente:
 
+
 \textbf{Destilación:} La destilación es el procedimiento más utilizado para la separación y purificación de 
 líquidos, se utiliza siempre  que se protende separar un líquido de sus impurezas no volátiles.
 La exigencia básica para la separación de los componentes de una mezcla por destilación es que la 
@@ -49,16 +53,11 @@ la composición de ambos es igual, nunca podrá separarse por destilación.
 componentes, y dejarlo hervir hasta que se evapore totalmente. Se emplea si no tenemos interés 
 en utilizar el componente evaporado. Los otros componentes quedan en el envase.
 
-\textit{Ejemplos:}
-
-\textbf{La separación de alcohol de agua} es un ejemplo de proceso de destilación. Cuando se lleva a ebullición 
-una disolución de alcohol, la mayor parte del vapor inicial es de alcohol, pues alcanza su punto de 
-ebullición antes que el agua. el vapor se recoge y se condensa varias veces para obtener la mezcla de alcohol
-más concentrada.
+\subsection*{Ejemplos}
 
 \textbf{Desalinización del agua}, la desalinización es un proceso que utiliza el principio de destilación para 
 extraer la sal del agua de mar. El agua se calienta y se bombea a un tanque de baja presión, donde 
-se evapora parcialmente. A continuación, se condensa el vapor formado por esta ``evaporación súbita' y se 
+se evapora parcialmente. A continuación, se condensa el vapor formado por esta ``evaporación súbita'' y se 
 extrae como agua pura.
 
 Si la diferencia entre las temperaturas de ebullición o volatilidad de las sustancias es grande, se 
@@ -66,7 +65,10 @@ puede realizar fácilmente la separación completa en una sola destilación. Es 
 agua destilada a partir del agua marina. Esta contiene aproximadamente el 4\% de distintas materias 
 sólidas en disolución.
 
-\textbf{La separación de agua y alcohol} , donde el agua hierve a $100^oC$, y el alcohol, que hierve a $78,5^oC$. Si 
+\textbf{La separación de agua y alcohol}, es un ejemplo de proceso de destilación. Cuando se lleva a ebullición 
+una disolución de alcohol, la mayor parte del vapor inicial es de alcohol, pues alcanza su punto de 
+ebullición antes que el agua, el vapor se recoge y se condensa varias veces para obtener la mezcla de alcohol
+más concentrada. Veamos en detalle, donde el agua hierve a $100^oC$, y el alcohol, que hierve a $78,5^oC$. Si 
 se hierve una mezcla de estos dos líquidos, el vapor que sale es más rico en alcohol y más pobre en 
 agua que el líquido del que precede, pero no es alcohol puro. Con el fin de concentrar una 
 disolución que contenga un 10\% del alcohol (como la que puede obtenerse por fermentación) para 
@@ -74,14 +76,14 @@ conseguir una disolución que contenga un 50 \% de alcohol. (frecuentemente en w
 de volver a destilarse una o dos veces mas, y si se desea alcohol industrial (95\%) son necesarias 
 varias destilaciones.
 
-\textbf{Solución de glicerina diluída}: si se desea obtener glicerina; se separa por evaporación hasta la 
+\textbf{Solución de glicerina diluída}: si se desea obtener glicerina, se separa por evaporación hasta la 
 concentración de 80\% de glicerina (se genera vapor de glicerina) donde se inicia la destilación.
 
-\section{Diagrama: Puntos de Ebullición.}
+\section{Diagrama de puntos de ebullición}
 \begin{figure}[h]
 \includesvg[scale=0.4,extractwidth=20pt]{./img/image}
 \caption{Relación entre el punto de ebullición y la composición de equilibrio a presión constante para todas las 
-mezclas de un líquido A (más volátil) y otro B, con puntos de ebullición $t_A$ y $t_B$.
+mezclas de un líquido $A$ (más volátil) y otro $B$, con puntos de ebullición $t_A$ y $t_B$.
 }
 \end{figure}
 
@@ -89,11 +91,11 @@ La concentración $X$ de un componente $A$ de una mezcla se calienta, comienza a
 concentración del primer vapor será $Y$, por lo que el líquido tiene una composición menor del componente más volátil.
 La mezcla representada en el diagrama de punto de ebullición sigue la ley de Raoult.
 
-\section{Ley de Raoult.}
+\section{Ley de Raoult}
 
 En algunos casos es posible obtener el diagrama de los puntos de ebullición a partir de los datos de
  la presión de vapor de los componentes puros. Esta ley establece que: 
-\begin{defi}[\textit{Ley de Raoult.}]
+\begin{defi}[\textit{Ley de Raoult}]
  A temperatura constante la presión parcial de un componente de la mezcla es igual a su fracción molar multiplicada por la 
  presión del vapor del mismo componente en estado puro a la temperatura considerada.
 \end{defi}
@@ -112,24 +114,26 @@ En algunos casos es posible obtener el diagrama de los puntos de ebullición a p
 \end{figure}
   
  Consideramos el sistema benceno-tolueno. A la temperatura de $t_A=100^oC$ el tolueno tiene una presión 
- de vapor de $P_A=556mmHg$. La gráfica en función de la composición será una recta. A ésta misma 
+ de vapor de $P_A=556 mmHg$. La gráfica en función de la composición será una recta. A ésta misma 
  temperatura el benceno tiene una presión de $P_B=1350 mmHg$, y su presión de vapor varía de 0 para el
   tolueno puro hasta $P_B=1350 mmHg$ de benceno puro. La presión vapor total para cualquier composición será 
-  la suma de las dos rectas.
-
-  Estas son rectas cuando es aplicable la ley de Raoult.
+  la suma de las dos rectas.\footnote {Si son rectas es aplicable la ley de Raoult.}
 
   En el punto en el que la presión total es $P=760 mmHg$ se encuentra que las fracciones molares en 
   el líquido son $X=0,263$ para el benceno $1-X=0,737$ para el tolueno. La composición para el vapor se 
   determina por medio de la ley de Dalton. Aquí $P_A=351 mmHg$ y la presión total $P=760 mmHg$, por lo tanto la 
   composición del vapor y fracción molar del benceno es $Y_A=P_A/P=351mmHg/760mmHg=0,46$.
   
- \begin{defi}[{Se puede expresar la ley de Raoult:}]
+ Se puede expresar la ley de Raoult:
+\begin{equation}
  \boxed {\rho_A=P_A X}
+\end{equation}
   donde:
-  $\rho_A$:Presión parcial del componente $A$ sobre la solución con fracción molar $x$.  
-  $P_A$: Presión de vapor componente puro $A$.
-\end{defi}
+  \begin{description}
+  \item [$\rho_A$] {Presión parcial del componente $A$ sobre la solución con fracción molar $x$.} 
+  \item [$P_A$] {Presión de vapor componente puro $A$.}
+  \end{description}
+
 
   Para el segundo componente de la mezcla:
    \begin{equation}
@@ -140,11 +144,11 @@ En algunos casos es posible obtener el diagrama de los puntos de ebullición a p
 En la línea trazada en la figura anterior podemos saber las presiones parciales de los diferentes
  componentes por medio de la ley de Raoult:
 
-$\rho_A=0,263 1350 = 355$
+$\rho_A=0,263\ 1350mmHg = 355mmHg$
 
-$\rho_B= 0,737 566 = 409$
+$\rho_B= 0,737\ 566mmHg = 409mmHg$
 
-$P = 355 + 409 = 764 mmHg$ 
+$P = 355mmHg + 409mmHg = 764 mmHg$ 
 Si $P$ es la presión total:
 \begin{equation}
 \boxed{P=\rho_A + \rho_B = P_A X+P_B (1-X)}
@@ -155,9 +159,16 @@ como $Y$: fracción molar de $A$ en el vapor es igual al cociente de la presión
 \end{equation}
 La ley de Raoult se aplica únicamente a las mezclas de sustancias que son químicamente muy similares 
 y cuando las moléculas de las dos sustancias no tienen acción alguna entre si. Ejemplo de la 
-divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de Carbono-acetona.
+divergencia de la ley de Raoult, consideramos la mezcla de sulfuro de carbono-acetona.
 
-\section{Ley de Henry.}
+\begin{figure}[h]
+  \centering
+  \includesvg[scale=0.4,extractwidth=20pt]{./img/carb-ace}
+  \caption{Diagrama sulfuro de carbono - acetona}  
+\end{figure}
+ 
+
+\section{Ley de Henry}
 
 Análoga a la ley de Raoult. La presión parcial de un componente en la solución es proporcional a su 
 fracción molar en el líquido.
@@ -174,7 +185,7 @@ La figura anterior muestra una curva de presión parcial para cada uno de los co
 mezcla, la cual es sustancialmente una línea recta en el final de la curva, en que el componente en 
 cuestión está en pequeñas cantidades.
 
-\section{Mezclas de punto de ebullición constantes.}
+\section{Mezclas de punto de ebullición constantes}
 
 Diagrama correspondiente a cloroformo-acetona. La composición de \textbf{a} tiene el punto de ebullición más elevado.
 
@@ -187,7 +198,7 @@ Estas mezclas no se pueden separar por destilación.
 Si la presión sobre las mismas varía, se puede cambiar el punto de ebullición constante y esto puede utilizarse para 
 efectuar separaciones, bien a presión o vacío.
 
-\section{Equilibrio de composición.}
+\section{Equilibrio de composición}
 
 La forma simplificada de los diagramas anteriores (Cloroformo y Benceno) y reciben el nombre de diagramas de equilibrio 
 líquido vapor (reacción entre composición del líquido y el vapor a presión constante)
@@ -210,21 +221,35 @@ La construcción de la curva líquido-vapor es fácil cuando se dispone del diag
  se pone en intimo contacto con los vapores que se desprenden en contracorriente y van hacia el condensador (rectificación).
  \end{enumerate}
 
-
-\dirtree{
-.1 Destilacion.
-.2 Relámpago.
-.2 Simple.
-.3 Fraccionada.
-.4 {Columna destilación}.
-.5 {Contínuo (relleno)}.
-.6 {Anillo de rasching}.
-.5 {Por etapa (plato)}.
-.6 {Plato perforado}.
-.6 {Campana Burbujeadora}.
-.2 {Destilación al vacío}.}
-
-\section {Destilación de equilibrio o relámpago}
+ \begin{figure}
+  \tree Destilación
+  \subtree Simple \endsubtree
+  \subtree Relámpago \endsubtree
+  \subtree Fraccionada
+       (Columna de
+        Destilación) 
+          \subtree Contínuo
+           (relleno) 
+          \subtree Anillo 
+          rasching \endsubtree
+          \endsubtree
+          \subtree Por etapa
+           (plato) 
+          \subtree Plato 
+          perforado \endsubtree
+          \subtree Campana
+           burbujeadora \endsubtree
+          \endsubtree
+      
+  \endsubtree
+  \subtree
+  Al Vacío
+  \endsubtree
+  \endtree
+  \caption{Métodos de destilación}
+  \end{figure}
+  
+\subsection {Destilación de equilibrio o relámpago}
 
 En este método se realiza la vaporización de una fracción determinada de una carga de líquido,
 manteniendo tando el líquido como el vapor formado en íntimo contacto hasta el final de la 
@@ -241,7 +266,7 @@ $W_o X_o = V y +(W_o -V) x$
 
 Este método es utilizado con sistemas multi-componentes.
 
-\section {Destilación simple.}
+\subsection {Destilación simple}
 
 Es una operación en la cual se produce la vaporización de un material por la aplicación de calor. Los 
 vapores que se desprenden se eliminan contínuamente, se condensan y se recolectan sin permitir 
@@ -251,20 +276,20 @@ el calentamiento y la ebullición. el destilado puede recolectarse en varios lot
 
  Este método se aplica en industrias de capacidad moderada y pequeña.
 
- \section{Destilación Fraccionada o rectificación}
+ \subsection{Destilación fraccionada o rectificación}
 
-En este proceso, la mezcla líquida a separar (alimento) se lleva al fondo de la columna (calderín) y 
+En este proceso, la mezcla líquida a separar (alimentación) se lleva al fondo de la columna (calderín) y 
 se pone allí en ebullición. El vapor generado sube por la columna, sale de ella por la parte superior y 
 se condensa (serpentin). Una parte del condensado se separa como producto de cabeza (destilado) y la otra 
 vuelve como reflujo a la columna, por la que desciende como fase líquida.
 
 En el interior de la columna se pone en contacto el vapor ascendente con el líquido descendente. 
 En un nivel dado de la columna estas dos corrientes no se encuentran en equilibrio por lo que hay 
-una transferencia de materia psando los componentes más volátiles del líquido al vapor, y los 
+una transferencia de materia pasando los componentes más volátiles del líquido al vapor, y los 
 componentes menos volátiles del vapor al líquido. Por lo que el vapor se enriquece de los 
 elementos más volátiles a medida que asciende por la columna.
 
-\section {Columnas de destilación.}
+\section {Columnas de destilación}
 
 Los distintos tipos de destilación se suelen llevar a cabo en columnas de destilación.
 
@@ -279,19 +304,19 @@ diseñado varios dispositivos basados en dos criterios distintos:
 \item Columnas de contacto contínuo entre el vapor y el líquido o columnas de relleno.
 \item Columnas de contacto por etapas, o columnas de platos o pisos.
 \end{enumerate}
-\section{Columnas de relleno.}
+\subsection{Columnas de relleno}
 Se diferencian de las anteriores por tener su interior ocupado por un relleno de anillos
 llamados anillos de rashing o de material perforado.
 En esta columnas lo más importante es la mayor superficie de contacto ofrecida por el relleno.
 En las columnas se produce habitualmente un movimiento a contracorriente entre el líquido que 
 desciende y el vapor que asciende. Y es durante este movimiento cuando se purifican los 
 componentes hasta la calidad deseada en el diseño.
-\subsection{Anillos de rashing.}
+\subsubsection{Anillos de rashing}
 Son piezas de geometría tubular cuyo diámetro es aproximadamente igual a su longitud y que se 
 emplean como relleno para columnas en procesos de destilación.
 Generalmente se frabrican con material cerámico o metálico y poseen una elevada superficie de 
 contacto, lo que facilita la interacción entre una fase líquida estacionaria y una fase móvil gaseosa.
-\subsection{Funcionamiento.}
+\subsubsection{Funcionamiento}
 En la columna de destilación, el reflujo o vapor condensado gotea sobre el interior de la columna.
 recubriendo los anillos de Rasching.
 Por otro lado, el vapor producido por la calefacción del dispositivo asciende por la columna.
@@ -299,7 +324,7 @@ De esta forma, el vapor generado y el líquido condensado interaccionan en contr
 interior de los anillos de Rashing, tendiendo a establecer un equilibrio. Los componentes menos 
 volátiles se desplazan con el líquido condensado y los más volátiles se desplazan con el vapor generado, 
 es decir siguen sentidos opuestos.
-\subsection{Columnas de plato.}
+\subsection{Columnas de plato}
 Los platos son superficies planas que dividen la columna en una serie de etapas.
 Tienen por objeto retener una cierta cantidad de líquido en la superficie a través del cual se hace 
 burbujear el vapor que asciende de la caldera, consiguiendo así un buen contacto entre el vapor y el líquido.
@@ -313,19 +338,19 @@ cae del plato es más rico en el componente menos volátil.
 
 -completar-
 
-\section{Cálculo para el dimensionamiento de columna de fraccionamiento por destilación}
-
+\section{Cálculo de columna de fraccionamiento}
+Cálculo para el dimensionamiento de columna de fraccionamiento por destilación.
 Ingresa una mezcla $F(A Y B)$ componente binario. Que contiene una fracción de peso $X$,
 del componente $A$.
 La columna trabaja a una presión $P$.
 El producto de cabeza o destilado ha de contener $X_o$ y el de cola o residuo $X_w$
 (fracciones en peso) del componente A.
 
-\subsection{Balance de materia y calor.}
+\subsection{Balance de materia y calor}
 Los caudales de las corrientes terminales $D$ y $W$ se pueden calcular por los balances de materia 
 (en estado de régimen).
 
-\subsubsection{Balance de materia.}
+\subsubsection{Balance de materia}
 Total: 
 \begin{equation}
 \boxed{F=D+W}
@@ -343,7 +368,7 @@ $F h_F +qr = D h_D + W h_W + qc$
 \newline\newline
 $qr$: calor entregado en el hervidor, kcal/h.
 $qc$: Calor eliminado en el condensador, kcal/h.
-\section{Balance de materia y energía para el condensador.}
+\subsubsection{Balance de materia y energía para el condensador}
 $V_1 = L_0 + D$ (Balance de materia.)
 \newline\newline
 $V_1 Y_1= L_0 x_0 + D X_D$ (Balance de un componente)
@@ -368,10 +393,9 @@ La relación $L_0/D$ se denomina \textit{relación de flujo externo} y al fijar 
 fijar $qc$. Puede calcularse el calor entregado en el hervidor por medio de 
 $F h_F + qr = D h_D + W h_W + qc$ . En este punto tenemos fijadas todas las condiciones terminales y los valores 
 desconocidos se han calculado por medio de los balances de materia y energía.
-\section{Cálculo plato a plato.}
-Para determinar números de platos en una columna para efectuar separación determinada, uno 
-de los métodos es el de proceder al cálculo plato a plato partiendo de datos terminales conocidos.
-
+\subsubsection{Cálculo plato a plato}
+Para efectuar una separación es necesario saber el número de platos en la columna.  
+Uno de los métodos consite en el cálculo plato a plato partiendo de datos terminales conocidos.
 Cualquiera de los dos extremos de la columna puede elegirse para comenzar los cálculos. Si se 
 empieza por la cabeza de la columna, se mantiene para el primer plato.
 \newline
@@ -385,11 +409,14 @@ Cantidades conocidas $L_0$,$X_0$,$h_0$ (reflujo) y $V_1$,$Y_1$,$ H_1$ (vapor)
 \newline\newline
 En consecuencia existen 6 incógnitas y 3 ecuaciones, haciendo necesario conocer más datos 
 adicionales, se introducen en el concepto de plato teórico.
+
 \subsection{Plato teórico}
+\begin{defi}
 Se define como un plato que está cargado de cierta cantidad de líquido, del cual se desprende 
-un vapor cuaya composición media está en equilibrio con un líquido cuya composición es la media de 
-la del líquido que sale del plato. Utilizando estos conceptos se puede hacer el cálculo del número de 
-platos teóricos.
+un vapor cuya composición media está en equilibrio con un líquido cuya composición es la media de 
+la del líquido que sale del plato.
+\end{defi}
+Utilizando estos conceptos se puede hacer el cálculo del número de platos teóricos.
 
 La composición del vapor que sale del plato se conoce, por lo tanto la composición de la corriente 
 $L_1$ puede determinarse por la relación de equilibrio a la presion $P$. La composición $X_1$ de la corriente 

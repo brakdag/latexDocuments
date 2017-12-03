@@ -1,0 +1,30 @@
+\documentclass{book}
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+  \usepackage[small]{titlesec}
+  \titleformat{\section}{\normalsize\bfseries}{\thesection.}{0.5em}{}
+  
+  \usepackage[ thmmarks, thref]{ntheorem}
+  \usepackage{chngcntr}
+  \usepackage{cleveref}
+  
+  \renewcommand\thesection{\arabic{section}}
+  
+  \theoremstyle{plain}
+  \theoremheaderfont{\scshape}
+  \theoremseparator{.~---}
+  \newtheorem{thm}{Theorem}
+  \counterwithin*{thm}{chapter}
+  
+  \pagestyle{plain}
+  
+  \begin{document}
+  
+  \section{A first section}
+  \begin{thm}\label{testthm}
+  This is a test theorem. 
+  \end{thm}
+  We see in \cref{testthm}\dots
+  
+  \end{document} 
