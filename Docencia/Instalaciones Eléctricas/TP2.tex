@@ -1,9 +1,10 @@
+ % !TEX program = xelatex
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{fancyhdr}
 \usepackage{vmargin}
-
+\usepackage[american]{circuitikz}
 \setpapersize{A4}
 \setmargins{2.5cm}       % margen izquierdo
 {1.5cm}  % margen superior
@@ -16,40 +17,136 @@
 \title{Trabajo Práctico 2- Instalaciones Eléctricas}
 \author{Gustavo David Ferreyra }
 \date{Marzo 2018}
-
 \begin{document}
-
 \fancyhead[L]{\textit{INSTALACIONES ELÉCTRICAS.}}
-\fancyhead[C]{}
 \fancyhead[R]{Potencia - Trabajo Práctico 2}
 \fancyfoot[L]{\rule{167mm}{0.1mm}                 Escuela 4-117 'Ejército de los Andes' gustavoferreyra@outlook.com}
-\fancyfoot[C]{}
-\fancyfoot[R]{}
 \pagestyle{fancy} 
 \section{Cálculo de Potencia}
 \subsection{Potencia}
 \subsubsection{Resolver: Justificar en cada caso su respuesta}
 \begin{enumerate}
 \large    
-\item Si la corriente que circula por una resistencia es de  $1A$ y su resistencia es de $10\Omega$. Calcular la potencia disipada en la resistencia.
+\item 
+Si la corriente que circula por una resistencia es de  $1A$ y su resistencia es de $10\Omega$. Calcular la potencia disipada en la resistencia.
+\begin{center}
+\begin{circuitikz}
+     \draw (-3,0) to[R=$10\Omega$, i=1A] (2,0)--(2,2) to[battery=$V$] (-3,2)--(-3,0);
+\end{circuitikz}
+\end{center}
 
 \item La potencia disipada en una resistencia conectada a 10V es de 100W, Calcular su resistencia.
 \item Un artefacto resistivo puro de $12\Omega$ se conecta a 12V. Calcular la potencia que consume el artefacto.
+
+    \begin{center}
+    \begin{circuitikz}
+         \draw (-3,0) to[R=$12\Omega$] (2,0)--(2,2) to[battery=$12V$] (-3,2)--(-3,0);
+    \end{circuitikz}
+    \end{center}
+
 \item Una resistencia calefactora de 1CV se conecta a 220V, calcular su resistencia.
 \item La potencia de una horno eléctrico resistivo es de 2HP, si se conecta a 220V calcular la corriente que consume.
 \item El filamento de una lámpara incandescente tiene un consumo de $100W$ conectado a $220V$, se corta el filamento a la mitad y se conecta nuevamente,¿Cuánta potencia va a consumir?
 \item Se tiene una estufa eléctrica de 1000W de consumo y 110V, si puede conectar también a 220V,¿Cuál será su consumo?
 \item La potencia disipada por una lámpara incandescente conectada a 110V es de 50W, si esta se conecta a 220V ¿En cuánto se incrementa la corriente?
 \item Se conectan 2 lámparas de 100w en paralelo, si las conecto a 220v ¿Cuál será el consumo?.
-\item Si las lámparas del ejercicio anterior las conecto en serie. ¿Cuál será el consumo?
+    \begin{center}
+    \begin{circuitikz}
+         \draw (-3,0) to[lamp=$R_1$,l_=$100W$,*-*] (2,0)--(2,2) to[battery=$220V$] (-3,2)--(-3,0);
+         \draw (-3,0)--(-3,-2);
+         \draw (2,0)--(2,-2);
+         \draw (-3,-2) to[lamp=$R_2$,l_=$100W$,*-*] (2,-2);
+         
+        \end{circuitikz}
+    \end{center}
+
+\item Si las lámparas del problema 9 las conectan en serie. ¿Cuál será el consumo?
 \item Se conectan 3 resistencias en paralelo, por cada una de ellas ciruclan 3A,y están conectadas a 220V. Calcular la potencia del conjuto. 
+
+\begin{center}
+    \begin{circuitikz}
+         \draw (-3,0) to[lamp=$R_1$,i=$3A$,*-*] (2,0)--(2,2) to[sI,v=220V] (-3,2)--(-3,0);
+         \draw (-3,0)--(-3,-2);
+         \draw (2,0)--(2,-2);
+         \draw (-3,-2) to[lamp=$R_2$,i=$3A$,*-*] (2,-2);
+         \draw (-3,-2)--(-3,-4);
+         \draw (2,-2)--(2,-4);
+         \draw (-3,-4) to[lamp=$R_2$,i=$3A$,*-*] (2,-4);
+        \end{circuitikz}
+    \end{center}
+
+
 \item Se conectan las 3 resistencias del problema anterior en serie. Calcular la potencia del conjunto.
 \item Se desea conectar una lámpara de 110V a 220V para ello se piensa conectar en serie una resistencia limitadora, calcular el valor de la resistencia y la potencia que debe disipar si se sabe que la lámpara tiene una potencia de 5W.
-\item Se desea conectar un led que consumo 15mA a 220V, para ello se necesita conectar una resistencia limitadora, calcular el valor de la resistencia y su potencia.
+\item Se desea conectar un LED (Ligth Emisor Diode) que consume 15mA a 220V, se agrega una resistencia limitadora, calcular el valor de la resistencia y su potencia.
+    
+    \begin{center}
+    \begin{circuitikz}
+        \draw (2,2) to[battery=$i$,v=220v](-3,2);
+        \draw (-3,0) to[R=$R_L$] (-3,2);
+        \draw (-3,0) to[leD*=$LED$] (2,0)--(2,2);
+         
+    \end{circuitikz}
+    \end{center}
+
 \item Se desea utilizar un generador de 250V para iluminar un escenario de un espectaculo que tiene un consumo de 1000W, si los cables son de cobre y de $2mm^2$. Calcular a que distancia máxima se puede colocar. La tensión en las lámparas no debe ser menor a 220V.
 \item Dadas dos resistencias de $3\Omega$ y $400\Omega$ conectadas en paralelo a 12V, calcular la potencia consumida por en cada una.
 \item Calcular la potencia en HP consumida por las resistencias del problema anterior conectadas en serie a 12V.
-\item 
-\end{enumerate}
+\item Calcular la corriente que consume la fuente.
 
+    \begin{center}
+    \begin{circuitikz}
+        \draw (2,4) to[battery=$i$,v=24v,i=$i$](-3,4);
+        \draw (-3,0) to[R=$2\Omega$] (-3,4);
+        \draw (-3,0) to[R=$5\Omega$] (2,0);
+        \draw (2,0) to[R=$7\Omega$] (2,4);
+        \draw (-3,0) to[R=$10\Omega$] (2,4);
+    \end{circuitikz}
+    \end{center}
+
+\item Calcular la potencia que consume cada resistencia del problema anterior.
+\item Un motor de corriente alterna se conecta a $220V$ y consume $2000W$ si se mide que el consumo es $10A$. Calcular S, $\varphi$ y Q. 
+
+    \begin{center}
+    \begin{circuitikz}
+        \draw (0,0) to [sI,i=$10A$,v=$220V$] (0,4);
+        \draw (0,4)--(4,4)--(4,0);
+        \draw (0,0) to [Telmech=M] (4,0);
+    \end{circuitikz}
+    \end{center}
+    \item Calcular $\varphi$ si la potencia activa es $1000W$ y la reactiva de $9VAr$.
+    \item Si el amperímetro marca 11A el voltímetro 220V y el vatímetro 2000W, calcular $cos(\varphi)$, S y Q.
+        \begin{center}
+        \begin{circuitikz}
+            \draw (0,0) to [sI,i=$10A$,v=$220V$] (0,4);
+            \draw (0,4)--(4,4);
+            \draw (4,0)to [ammeter,*-*](4,4);
+            \draw (0,0)--(0,-2);
+            \draw (4,0)--(4,-2);
+            \draw (0,-2)to [voltmeter,*-*](4,-2);
+            \draw (0,0) to [Telmech=M] (4,0);
+        \end{circuitikz}
+        \end{center}
+    \item El consumo de un aire acondicionado que funciona con $220V$ es de $2000W$, si se mide $10A$ de corriente calcular el factor de potencia.
+    \item Se conecta un capacitor que consume $Q=10VAr$, a un motor de $S=100VA$, $P=88W$, Calcular $\varphi _{inicial}$ antes y después de conectarlo $\varphi _{final}$.
+    \item Una carga tiene $Q=100VAr$ y $P=1000W$ calcular $cos(\varphi)$ y potencia aparente $S$.
+    \item Un generador produce 220V y está conectado a una carga de $100W$ calcular la caída de tensión que se produce si la distancia entre el generador y la carga es de $l=40m$, $s=3mm^2$ y $\rho = 0,0171\Omega mm^2/m$    
+    \item Un motor de 5HP tiene un $cos(\varphi) = 0.95$ calcular la potencia activa $P$, reactiva $Q$ y aparente $S$.
+    \item ¿Qué potencia reactiva Q hay que disminuir en un motor para pasar de un
+     ángulo $\varphi=45^o$ a $\varphi=5^o$ si la potencia activa es $P=1000W$?
+    \item Para una carga de $P=2000W$ se corrige el factor de potencia de $cos(\varphi)=0,6$ a $cos(\varphi)=0,9$ Calcular cuanto disminuyó la potencia reactiva.  
+    \item Para una carga de 5HP se corrige defasaje $\varphi = 60^o$ a $cos(\varphi)=0.97$. Calcular la variación de potencia reactiva $\Delta Q$.
+    \item Un motor con $P=1HP$, $Q=200VAr$, se conecta a 220V, Se conecta en paralelo un capacitor de $C=10\mu F$. Calcular S, y Q despues de conectar el capacitor.
+    \begin{center}
+        \begin{circuitikz}
+            \draw (0,2) to [sI,i=$i$,v=$220V$] (4,2);
+            \draw (0,0)--(0,2);
+            \draw (4,0)--(4,2);
+            \draw (0,0)--(0,-2);
+            \draw (4,0)--(4,-2);
+            \draw (0,-2)to [capacitor=10$\mu$F](4,-2);
+            \draw (0,0) to [Telmech=M,*-*] (4,0);
+        \end{circuitikz}
+        \end{center}
+\end{enumerate}
 \end{document}
