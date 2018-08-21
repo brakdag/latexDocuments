@@ -1,0 +1,133 @@
+<?xml version="1.0"?> 
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head> 
+<meta name="dtb:uid" content="http://example.com/concentracion"/> 
+<meta name="dtb:depth" content="3"/> 
+<meta name="dtb:totalPageCount" content="0"/> 
+<meta name="dtb:maxPageNumber" content="0"/> 
+</head> 
+<docTitle> 
+<text>Carpeta de Procesos Industriales.<br 
+class="newline" />Universidad Tecnológica Nacional.<br 
+class="newline" />Facultad Regional San Rafael.<br 
+class="newline" /><br 
+class="newline" />2017.</text> 
+</docTitle> 
+<navMap>     
+<navPoint id="navPoint-1" playOrder="1"> 
+<navLabel> 
+<text> 1 Extracción</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-20001" />      
+<navPoint id="navPoint-2" playOrder="2"> 
+<navLabel> 
+<text> 1.1 Introducción</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-30001.1" /></navPoint> 
+     
+<navPoint id="navPoint-3" playOrder="3"> 
+<navLabel> 
+<text> 1.2 Equipos para
+el lixiviado de sólidos gruesos</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-40001.2" />       
+<navPoint id="navPoint-4" playOrder="4"> 
+<navLabel> 
+<text>  1.2.1  Depósitos Abiertos</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-50001.2.1" /></navPoint> 
+</navPoint> 
+     
+<navPoint id="navPoint-5" playOrder="5"> 
+<navLabel> 
+<text>  1.3
+Lixiviado de sólidos intermedios</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-60001.3" /></navPoint> 
+     
+<navPoint id="navPoint-6" playOrder="6"> 
+<navLabel> 
+<text> 1.4 Lecho fijo o batería de difusión</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-70001.4" /></navPoint> 
+ 
+<navPoint id="navPoint-7" playOrder="7"> 
+<navLabel> 
+<text> 1.5 Baterías de difusión contínuas</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-80001.5" /></navPoint> 
+    
+<navPoint id="navPoint-8" playOrder="8"> 
+<navLabel> 
+<text> 1.6 Lixivado contínuo de sólidos
+finos</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-90001.6" /></navPoint> 
+     
+<navPoint id="navPoint-9" playOrder="9"> 
+<navLabel> 
+<text> 1.7 Espesador de Dorr</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-100001.7" /></navPoint> 
+     
+<navPoint id="navPoint-10" playOrder="10"> 
+<navLabel> 
+<text> 1.8 Extracción líquido-líquido.</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-110001.8" />
+ 
+<navPoint id="navPoint-11" playOrder="11"> 
+<navLabel> 
+<text>  1.8.1  Torres de extracción</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-120001.8.1" /></navPoint> 
+     
+<navPoint id="navPoint-12" playOrder="12"> 
+<navLabel> 
+<text>  1.8.2  Extractores centrífugos</text> 
+</navLabel> 
+<content src="concentracionch1.xhtml#x3-160001.8.2" />
+</navPoint> 
+</navPoint> 
+</navPoint> 
+    
+<navPoint id="navPoint-13" playOrder="13"> 
+<navLabel> 
+<text>  2  Extracción sólido-líquido.</text> 
+</navLabel> 
+<content src="concentracionch2.xhtml#x4-170002" />       
+<navPoint id="navPoint-14" playOrder="14"> 
+<navLabel> 
+<text>  2.1  Cálculo para la
+extracción sólido-líquido</text> 
+</navLabel> 
+<content src="concentracionch2.xhtml#x4-180002.1" /></navPoint> 
+     
+<navPoint id="navPoint-15" playOrder="15"> 
+<navLabel> 
+<text>  2.2  Diagrama triangular.</text> 
+</navLabel> 
+<content src="concentracionch2.xhtml#x4-190002.2" /></navPoint> 
+     
+<navPoint id="navPoint-16" playOrder="16"> 
+<navLabel> 
+<text>  2.3
+Solución Gráfica</text> 
+</navLabel> 
+<content src="concentracionch2.xhtml#x4-200002.3" /></navPoint> 
+     
+<navPoint id="navPoint-17" playOrder="17"> 
+<navLabel> 
+<text>  2.4  Cálculo de extracción en contracorriente
+con etapas múltiples.</text> 
+</navLabel> 
+<content src="concentracionch2.xhtml#x4-210002.4" /></navPoint> 
+     
+<navPoint id="navPoint-18" playOrder="18"> 
+<navLabel> 
+<text>  2.5  Balance de materia y componentes.</text> 
+</navLabel> 
+<content src="concentracionch2.xhtml#x4-220002.5" />
+</navPoint> 
+</navPoint> 
+</navMap>
+</ncx> 

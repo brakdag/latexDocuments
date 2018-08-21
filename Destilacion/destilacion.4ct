@@ -1,0 +1,16 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{2}{x2-1000}{QQ2-2-1}{Índice general}}{7}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{3}{x3-20001}{QQ2-3-2}{DESTILACIÓN}}{3}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{3}{x3-30001.1}{QQ2-3-3}{Introducción}}{3}\relax 
+\doTocEntry\toclof{1.1}{\csname a:TocLink\endcsname{3}{x3-30061}{}{\ignorespaces Destilación}}{figure}\relax 
+\doTocEntry\toclikesubsection{}{\csname a:TocLink\endcsname{3}{x3-40001.1}{QQ2-3-5}{Ejemplos}}{4}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{3}{x3-50001.2}{QQ2-3-6}{Diagrama de puntos de ebullición}}{5}\relax 
+\doTocEntry\toclof{1.2}{\csname a:TocLink\endcsname{3}{x3-50012}{}{\ignorespaces Relación entre el punto de ebullición y la composición de equilibrio a presión constante para todas las mezclas de un líquido $A$ (más volátil) y otro $B$, con puntos de ebullición $t_A$ y $t_B$. }}{figure}\relax 
+\doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{3}{x3-60001.3}{QQ2-3-8}{Ley de Raoult}}{8}\relax 
+\doTocEntry\toclof{1.3}{\csname a:TocLink\endcsname{3}{x3-60023}{}{\ignorespaces Diagrama benceno-tolueno}}{figure}\relax 
+\doTocEntry\toclof{1.4}{\csname a:TocLink\endcsname{3}{x3-60084}{}{\ignorespaces Diagrama sulfuro de carbono - acetona}}{figure}\relax 
+\doTocEntry\tocsection{1.4}{\csname a:TocLink\endcsname{3}{x3-70001.4}{QQ2-3-11}{Ley de Henry}}{16}\relax 
+\doTocEntry\tocsection{1.5}{\csname a:TocLink\endcsname{3}{x3-80001.5}{QQ2-3-12}{Mezclas de punto de ebullición constantes}}{17}\relax 
+\doTocEntry\tocsection{1.6}{\csname a:TocLink\endcsname{3}{x3-90001.6}{QQ2-3-13}{Equilibrio de composición}}{17}\relax 
+\doTocEntry\tocsection{1.7}{\csname a:TocLink\endcsname{3}{x3-100001.7}{QQ2-3-14}{Métodos de destilación}}{18}\relax 
+\par 

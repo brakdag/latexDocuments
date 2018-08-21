@@ -1,0 +1,7 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{2}{x2-10001}{QQ2-2-1}{Electromagnetismo - Trabajo Práctico 1}}{1}\relax 
+\doTocEntry\tocsubsection{1.1}{\csname a:TocLink\endcsname{2}{x2-20001.1}{QQ2-2-2}{Campo magnético creado por una corriente eléctrica, intensidad de campo, inducción,permeabilidad magnética,fuerza magnetomotriz,electroimanes}}{1}\relax 
+\doTocEntry\tocsubsubsection{1.1.1}{\csname a:TocLink\endcsname{2}{x2-30001.1.1}{QQ2-2-3}{Resolver los siguientes problemas:}}{1}\relax 
+\doTocEntry\toclot{1}{\csname a:TocLink\endcsname{2}{x2-30011}{}{\ignorespaces Relación entre intensidad de campo magnético $H$ e Inducción magnética $B$.}}{table}\relax 
+\doTocEntry\tocsubsubsection{1.1.2}{\csname a:TocLink\endcsname{2}{x2-40001.1.2}{QQ2-2-5}{Resumen de formulas}}{6}\relax 
+\par 

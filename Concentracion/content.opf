@@ -1,0 +1,45 @@
+<?xml version="1.0"?> 
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" version="3.0"> 
+<metadata 
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:opf="http://www.idpf.org/2007/opf"> 
+<dc:title>Carpeta de Procesos Industriales.<br 
+class="newline" />Universidad Tecnológica Nacional.<br 
+class="newline" />Facultad Regional San Rafael.<br 
+class="newline" /><br 
+class="newline" />2017.</dc:title> 
+<dc:language>es</dc:language> 
+<dc:identifier id="dcidid" >http://example.com/concentracion</dc:identifier> 
+<dc:creator>Ferreyra, Gustavo David.</dc:creator> 
+<dc:date>2018-08-16T23:31:00Z</dc:date>  
+<meta property="dcterms:modified">2018-08-16T23:31:00Z</meta></metadata>   
+<manifest> 
+<item id="ncx" href="concentracion.ncx" media-type="application/x-dtbncx+xml" /> 
+<item id="stylesheet" href="concentracion.css" media-type="text/css"/> 
+<item id="file1"  href="concentracion.xhtml" media-type="application/xhtml+xml" /> 
+<item id="file2"  properties="nav" href="concentracionli1.xhtml" media-type="application/xhtml+xml" /> 
+<item id="file3"  href="concentracionch1.xhtml" media-type="application/xhtml+xml" /> 
+<item id="file4"  href="concentracionch2.xhtml" media-type="application/xhtml+xml" /> 
+ 
+<item id='concentracion0x_png' href='concentracion0x.png' media-type='image/png' />
+<item id='concentracion1x_png' href='concentracion1x.png' media-type='image/png' />
+<item id='concentracion2x_png' href='concentracion2x.png' media-type='image/png' />
+<item id='concentracion3x_png' href='concentracion3x.png' media-type='image/png' />
+<item id='concentracion4x_png' href='concentracion4x.png' media-type='image/png' />
+<item id='concentracion5x_png' href='concentracion5x.png' media-type='image/png' />
+<item id='concentracion6x_png' href='concentracion6x.png' media-type='image/png' />
+<item id='concentracion7x_png' href='concentracion7x.png' media-type='image/png' />
+<item id='concentracion8x_png' href='concentracion8x.png' media-type='image/png' />
+<item id='concentracion9x_png' href='concentracion9x.png' media-type='image/png' />
+</manifest> 
+   
+<spine toc="ncx"> 
+<itemref idref="file1" /> 
+<itemref idref="file2" /> 
+<itemref idref="file3" /> 
+<itemref idref="file4" /> 
+  
+ 
+</spine> 
+<guide> 
+</guide></package> 

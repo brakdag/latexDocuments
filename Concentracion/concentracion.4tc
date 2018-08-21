@@ -1,0 +1,25 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+\doTocEntry\toclikechapter{}{\csname a:TocLink\endcsname{2}{x2-1000}{QQ2-2-1}{Índice general}}{3}\relax 
+\doTocEntry\tocchapter{1}{\csname a:TocLink\endcsname{3}{x3-20001}{QQ2-3-2}{Extracción}}{5}\relax 
+\doTocEntry\tocsection{1.1}{\csname a:TocLink\endcsname{3}{x3-30001.1}{QQ2-3-3}{Introducción}}{5}\relax 
+\doTocEntry\tocsection{1.2}{\csname a:TocLink\endcsname{3}{x3-40001.2}{QQ2-3-4}{Equipos para el lixiviado de sólidos gruesos}}{6}\relax 
+\doTocEntry\tocsubsection{1.2.1}{\csname a:TocLink\endcsname{3}{x3-50001.2.1}{QQ2-3-5}{Depósitos Abiertos}}{6}\relax 
+\doTocEntry\tocsection{1.3}{\csname a:TocLink\endcsname{3}{x3-60001.3}{QQ2-3-6}{Lixiviado de sólidos intermedios}}{6}\relax 
+\doTocEntry\tocsection{1.4}{\csname a:TocLink\endcsname{3}{x3-70001.4}{QQ2-3-7}{Lecho fijo o batería de difusión}}{6}\relax 
+\doTocEntry\tocsection{1.5}{\csname a:TocLink\endcsname{3}{x3-80001.5}{QQ2-3-8}{Baterías de difusión contínuas}}{7}\relax 
+\doTocEntry\tocsection{1.6}{\csname a:TocLink\endcsname{3}{x3-90001.6}{QQ2-3-9}{Lixivado contínuo de sólidos finos}}{7}\relax 
+\doTocEntry\tocsection{1.7}{\csname a:TocLink\endcsname{3}{x3-100001.7}{QQ2-3-10}{Espesador de Dorr}}{8}\relax 
+\doTocEntry\tocsection{1.8}{\csname a:TocLink\endcsname{3}{x3-110001.8}{QQ2-3-11}{Extracción líquido-líquido.}}{8}\relax 
+\doTocEntry\tocsubsection{1.8.1}{\csname a:TocLink\endcsname{3}{x3-120001.8.1}{QQ2-3-12}{Torres de extracción}}{8}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-130001.8.1}{QQ2-3-13}{Torres de platos}}{9}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-140001.8.1}{QQ2-3-14}{Torres rellenas}}{9}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{3}{x3-150001.8.1}{QQ2-3-15}{Torres de rociado}}{9}\relax 
+\doTocEntry\tocsubsection{1.8.2}{\csname a:TocLink\endcsname{3}{x3-160001.8.2}{QQ2-3-16}{Extractores centrífugos}}{9}\relax 
+\doTocEntry\tocchapter{2}{\csname a:TocLink\endcsname{4}{x4-170002}{QQ2-4-17}{Extracción sólido-líquido.}}{12}\relax 
+\doTocEntry\tocsection{2.1}{\csname a:TocLink\endcsname{4}{x4-180002.1}{QQ2-4-18}{Cálculo para la extracción sólido-líquido}}{12}\relax 
+\doTocEntry\tocsection{2.2}{\csname a:TocLink\endcsname{4}{x4-190002.2}{QQ2-4-19}{Diagrama triangular.}}{13}\relax 
+\doTocEntry\tocsection{2.3}{\csname a:TocLink\endcsname{4}{x4-200002.3}{QQ2-4-20}{Solución Gráfica}}{13}\relax 
+\doTocEntry\tocsection{2.4}{\csname a:TocLink\endcsname{4}{x4-210002.4}{QQ2-4-21}{Cálculo de extracción en contracorriente con etapas múltiples.}}{13}\relax 
+\doTocEntry\toclof{2.1}{\csname a:TocLink\endcsname{4}{x4-210011}{}{\ignorespaces Esquema de etapa múltiple de concentradores}}{figure}\relax 
+\doTocEntry\tocsection{2.5}{\csname a:TocLink\endcsname{4}{x4-220002.5}{QQ2-4-23}{Balance de materia y componentes.}}{17}\relax 
+\doTocEntry\toclof{2.2}{\csname a:TocLink\endcsname{4}{x4-220032}{}{\ignorespaces Solución gráfica para la extracción con múltiples etapas.}}{figure}\relax 

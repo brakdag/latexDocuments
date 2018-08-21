@@ -1,0 +1,41 @@
+<?xml version="1.0"?> 
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head> 
+<meta name="dtb:uid" content="http://example.com/TP1"/> 
+<meta name="dtb:depth" content="3"/> 
+<meta name="dtb:totalPageCount" content="0"/> 
+<meta name="dtb:maxPageNumber" content="0"/> 
+</head> 
+<docTitle> 
+<text>Trabajo Práctico
+1- Máquinas Eléctricas II</text> 
+</docTitle> 
+<navMap>       
+<navPoint id="navPoint-1" playOrder="1"> 
+<navLabel> 
+<text>  1  Electromagnetismo - Trabajo Práctico 1</text> 
+</navLabel> 
+<content src="TP1se1.xhtml#x2-10001" />
+ 
+<navPoint id="navPoint-2" playOrder="2"> 
+<navLabel> 
+<text> 1.1 Campo magnético creado por una corriente eléctrica, intensidad de
+campo, inducción,permeabilidad magnética,fuerza magnetomotriz,electroimanes</text> 
+</navLabel> 
+<content src="TP1se1.xhtml#x2-20001.1" />
+ 
+<navPoint id="navPoint-3" playOrder="3"> 
+<navLabel> 
+<text> 1.1.1 Resolver los siguientes problemas:</text> 
+</navLabel> 
+<content src="TP1se1.xhtml#x2-30001.1.1" /></navPoint> 
+      
+<navPoint id="navPoint-4" playOrder="4"> 
+<navLabel> 
+<text>  1.1.2  Resumen de formulas</text> 
+</navLabel> 
+<content src="TP1se1.xhtml#x2-40001.1.2" />
+</navPoint> 
+</navPoint> 
+</navPoint> 
+</navMap>
+</ncx>
